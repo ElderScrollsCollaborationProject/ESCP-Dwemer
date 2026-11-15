@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <GeneDef>
+        <defName>ESCP_Gene_Dwemer_Tonal</defName>
+        <label>tonal insight</label>
+        <description>The Dwemer learned to hear the structure underneath things and to strike it like a bell. Carriers learn fast and think through research problems with unsettling ease, and can tune the air around them into a brief ward.</description>
+        <iconPath>UI/Icons/Genes/Gene_Robust</iconPath>
+        <displayCategory>Miscellaneous</displayCategory>
+        <displayOrderInCategory>100</displayOrderInCategory>
+        <biostatCpx>2</biostatCpx>
+        <biostatMet>-2</biostatMet>
+        <statOffsets>
+            <ResearchSpeed>0.2</ResearchSpeed>
+            <GlobalLearningFactor>0.05</GlobalLearningFactor>
+        </statOffsets>
+        <abilities>
+            <li>ESCP_Ability_Dwemer_Tonal_Ward</li>
+        </abilities>
+    </GeneDef>
+
+    <GeneDef>
+        <defName>ESCP_Gene_Dwemer_Artificer</defName>
+        <label>deep artificer</label>
+        <description>A Dwemer considers a badly made hinge a personal insult. Carriers build, smith and repair quickly, and do not stop fussing with the result.</description>
+        <iconPath>UI/Icons/Genes/Gene_PsychicBonding</iconPath>
+        <displayCategory>Miscellaneous</displayCategory>
+        <displayOrderInCategory>101</displayOrderInCategory>
+        <biostatCpx>1</biostatCpx>
+        <biostatMet>-2</biostatMet>
+        <statOffsets>
+            <ConstructionSpeed>0.2</ConstructionSpeed>
+            <GeneralLaborSpeed>0.2</GeneralLaborSpeed>
+        </statOffsets>
+    </GeneDef>
+
+    <GeneDef>
+        <defName>ESCP_Gene_Dwemer_Delver</defName>
+        <label>deep delver</label>
+        <description>Their cities run for miles under the rock, and those who built them were at home there in a way nobody on the surface has been since. Mining comes easily to carriers of this gene.</description>
+        <iconPath>UI/Icons/Genes/Gene_Robust</iconPath>
+        <displayCategory>Miscellaneous</displayCategory>
+        <displayOrderInCategory>102</displayOrderInCategory>
+        <biostatCpx>1</biostatCpx>
+        <biostatMet>-1</biostatMet>
+        <statOffsets>
+            <MiningSpeed>0.3</MiningSpeed>
+            <MiningYield>0.1</MiningYield>
+        </statOffsets>
+    </GeneDef>
+
+    <GeneDef ParentName="GeneBeardStyleBase">
+        <defName>ESCP_Gene_Dwemer_Beard</defName>
+        <label>Dwemer beard</label>
+        <description>Dwemer men wear long, heavy beards, and it is rare to see one with a bare chin. Statues in the old cities show the same.</description>
+        <iconPath>UI/Icons/Genes/Gene_BeardStyleBushyOnly</iconPath>
+        <displayOrderInCategory>70</displayOrderInCategory>
+        <beardTagFilter>
+            <whitelist>true</whitelist>
+            <tags>
+                <li>BeardLong</li>
+            </tags>
+        </beardTagFilter>
+    </GeneDef>
+
+</Defs>

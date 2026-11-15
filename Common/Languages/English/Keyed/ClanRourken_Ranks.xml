@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+    <ESCP_Rank_Mentor_ClanRourken>Tutor:</ESCP_Rank_Mentor_ClanRourken>
+    <ESCP_Rank_Promote_ClanRourken>Advance in the Clan</ESCP_Rank_Promote_ClanRourken>
+    <ESCP_Rank_Promoted_Text_ClanRourken>The clan's elders have reviewed the evidence. {0} is now {1}.</ESCP_Rank_Promoted_Text_ClanRourken>
+    <ESCP_Rank_Rally_Title_ClanRourken>{0} calls on Rourken pride</ESCP_Rank_Rally_Title_ClanRourken>
+    <ESCP_Rank_Rally_Text_ClanRourken>{0} reminds every one of {1} on the field that Rourken bows to no one, and they fight like it.</ESCP_Rank_Rally_Text_ClanRourken>
+    <ESCP_Rank_InspectionComplete_Commended_ClanRourken>{0} inspects {1}'s gear and finds the tolerances exact.</ESCP_Rank_InspectionComplete_Commended_ClanRourken>
+    <ESCP_Rank_InspectionComplete_Reprimanded_ClanRourken>{0} inspects {1}'s gear and is offended by the tolerances.</ESCP_Rank_InspectionComplete_Reprimanded_ClanRourken>
+    <ESCP_Rank_PunishmentAssigned_ClanRourken>{0} sends {1} to scrub soot from the gears.</ESCP_Rank_PunishmentAssigned_ClanRourken>
+
+</LanguageData>

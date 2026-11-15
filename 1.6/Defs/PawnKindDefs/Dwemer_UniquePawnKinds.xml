@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <PawnKindDef Name="ESCP_Dwemer_UniqueCharacterBase" ParentName="ESCP_DwemerkindBase" Abstract="true">
+        <showInDebugSpawner>false</showInDebugSpawner>
+        <apparelMoney>9999</apparelMoney>
+        <gearHealthRange>10</gearHealthRange>
+        <apparelAllowHeadgearChance>1</apparelAllowHeadgearChance>
+        <apparelIgnoreSeasons>true</apparelIgnoreSeasons>
+        <weaponMoney>9999</weaponMoney>
+        <maxGenerationAge>300</maxGenerationAge>
+        <initialWillRange>5~7</initialWillRange>
+        <initialResistanceRange>25~35</initialResistanceRange>
+    </PawnKindDef>
+
+    <PawnKindDef ParentName="ESCP_Dwemer_UniqueCharacterBase">
+        <defName>ESCP_Unique_Pawnkind_Dwemer_Chief</defName>
+        <label>Chief of Clan Rourken</label>
+        <factionLeader>true</factionLeader>
+        <combatPower>270</combatPower>
+        <weaponTags>
+            <li>MedievalMeleeAdvanced</li>
+        </weaponTags>
+        <apparelTags>
+            <li>MedievalBasic</li>
+            <li>MedievalMilitary</li>
+            <li>Cape</li>
+        </apparelTags>
+        <backstoryFiltersOverride>
+            <li>
+                <categoriesChildhood>
+                    <li>ESCP_Backstory_Dwemer_Child</li>
+                </categoriesChildhood>
+                <categoriesAdulthood>
+                    <li>ESCP_Backstory_Dwemer_Military</li>
+                    <li>ESCP_Backstory_Dwemer_Mage</li>
+                </categoriesAdulthood>
+            </li>
+        </backstoryFiltersOverride>
+        <forcedTraits>
+            <ESCP_Trait_Dwemer_Tonal_Architect>0</ESCP_Trait_Dwemer_Tonal_Architect>
+            <ESCP_Trait_Dwemer_Rationalist>0</ESCP_Trait_Dwemer_Rationalist>
+        </forcedTraits>
+    </PawnKindDef>
+
+</Defs>

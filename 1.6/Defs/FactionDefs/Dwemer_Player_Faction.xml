@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <FactionDef ParentName="PlayerFactionBase">
+        <defName>ESCP_Faction_Dwemer_Player</defName>
+        <label>Dwemer Expedition</label>
+        <description>A survey party of Deep Elves sent up from the halls to take measurements. So far they are not impressed by the surface.</description>
+        <isPlayer>true</isPlayer>
+        <techLevel>Medieval</techLevel>
+        <basicMemberKind>ESCP_Pawnkind_Dwemer_Settler</basicMemberKind>
+        <pawnSingular>Dwemer</pawnSingular>
+        <pawnsPlural>Dwemer</pawnsPlural>
+        <leaderTitle>Tonal Architect</leaderTitle>
+        <factionIconPath>World/WorldObjects/Expanding/Empire</factionIconPath>
+        <colorSpectrum>
+            <li>(0.72, 0.5, 0.22)</li>
+        </colorSpectrum>
+        <xenotypeSet MayRequire="Ludeon.RimWorld.Biotech">
+            <xenotypeChances>
+                <ESCP_Xenotype_Dwemer>1</ESCP_Xenotype_Dwemer>
+            </xenotypeChances>
+        </xenotypeSet>
+        <allowedCultures>
+            <li>ESCP_Culture_Dwemer</li>
+        </allowedCultures>
+        <backstoryFilters>
+            <li>
+                <categories>
+                    <li>ESCP_Backstory_Dwemer_Child</li>
+                    <li>ESCP_Backstory_Dwemer_Citizen</li>
+                    <li>ESCP_Backstory_Dwemer_Military</li>
+                    <li>ESCP_Backstory_Dwemer_Mage</li>
+                </categories>
+            </li>
+        </backstoryFilters>
+    </FactionDef>
+
+</Defs>

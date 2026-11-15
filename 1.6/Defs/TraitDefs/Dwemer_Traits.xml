@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <TraitDef>
+        <defName>ESCP_Trait_Dwemer_Tonal_Architect</defName>
+        <commonality>0</commonality>
+        <degreeDatas>
+            <li>
+                <label>tonal architect</label>
+                <description>Trained in the hard mathematics of the Heart and its harmonics. This person has very firm opinions about everything, and research tends to prove them right.</description>
+                <statOffsets>
+                    <ResearchSpeed>0.12</ResearchSpeed>
+                    <GlobalLearningFactor>0.06</GlobalLearningFactor>
+                </statOffsets>
+                <skillGains>
+                    <Intellectual>2</Intellectual>
+                </skillGains>
+            </li>
+        </degreeDatas>
+    </TraitDef>
+
+    <TraitDef>
+        <defName>ESCP_Trait_Dwemer_Forgemaster</defName>
+        <commonality>0</commonality>
+        <degreeDatas>
+            <li>
+                <label>forgemaster</label>
+                <description>They can tell the temperature of a billet by its color from across the hall. Anything built under their eye comes out straight and stays that way.</description>
+                <statOffsets>
+                    <GeneralLaborSpeed>0.1</GeneralLaborSpeed>
+                    <ConstructSuccessChance>0.06</ConstructSuccessChance>
+                </statOffsets>
+                <skillGains>
+                    <Crafting>2</Crafting>
+                </skillGains>
+            </li>
+        </degreeDatas>
+    </TraitDef>
+
+    <TraitDef>
+        <defName>ESCP_Trait_Dwemer_Rationalist</defName>
+        <commonality>0</commonality>
+        <degreeDatas>
+            <li>
+                <label>rationalist</label>
+                <description>This one has examined the gods and found them poorly reasoned. Priests make them yawn, and neither psychic pressure nor threats get much of a grip on them.</description>
+                <statOffsets>
+                    <PsychicSensitivity>-0.25</PsychicSensitivity>
+                    <MentalBreakThreshold>-0.04</MentalBreakThreshold>
+                </statOffsets>
+            </li>
+        </degreeDatas>
+    </TraitDef>
+
+</Defs>

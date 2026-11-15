@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <CultureDef>
+        <defName>ESCP_Culture_Dwemer</defName>
+        <label>Dwemer</label>
+        <description>The culture of the Dwemer halls, a civilization that treated gods as engineering problems. Learning is the only nobility. Beards are grown long, oaths are kept and arguments can outlive the people who started them.</description>
+        <iconPath>UI/Cultures/ESCP_Culture_Imperial</iconPath>
+        <pawnNameMaker>ESCP_Dwemer_Namer_Male</pawnNameMaker>
+        <pawnNameMakerFemale>ESCP_Dwemer_Namer_Female</pawnNameMakerFemale>
+        <allowedPlaceTags>
+            <li>OriginSpacer</li>
+        </allowedPlaceTags>
+        <styleItemTags>
+            <li>
+                <tag>BeardLong</tag>
+                <baseWeight>10</baseWeight>
+                <weightFactor>1</weightFactor>
+            </li>
+            <li>
+                <tag>Urban</tag>
+                <baseWeight>3</baseWeight>
+                <weightFactor>1</weightFactor>
+            </li>
+            <li>
+                <tag>NoTattoo</tag>
+                <baseWeight>10</baseWeight>
+                <weightFactor>1</weightFactor>
+            </li>
+        </styleItemTags>
+        <thingStyleCategories MayRequire="Ludeon.RimWorld.Ideology">
+            <li>
+                <category>Rustic</category>
+                <priority>2</priority>
+            </li>
+        </thingStyleCategories>
+        <ideoNameMaker MayRequire="Ludeon.RimWorld.Ideology">ESCP_NamerIdeo_Dwemer</ideoNameMaker>
+        <deityNameMaker MayRequire="Ludeon.RimWorld.Ideology">ESCP_NamerDeity_Dwemer</deityNameMaker>
+        <deityTypeMaker MayRequire="Ludeon.RimWorld.Ideology">ESCP_DeityTypeMaker_Dwemer</deityTypeMaker>
+        <festivalNameMaker MayRequire="Ludeon.RimWorld.Ideology">ESCP_NamerFestival_Dwemer</festivalNameMaker>
+        <leaderTitleMaker MayRequire="Ludeon.RimWorld.Ideology">ESCP_LeaderTitleMaker_Dwemer</leaderTitleMaker>
+    </CultureDef>
+
+    <StyleCategoryDef MayRequire="Ludeon.RimWorld.Ideology">
+        <defName>ESCP_Style_Dwemer</defName>
+        <label>Dwemer</label>
+        <iconPath>UI/Cultures/ESCP_Culture_Imperial</iconPath>
+        <ritualVisualEffectDef>Rustic</ritualVisualEffectDef>
+        <thingDefStyles />
+    </StyleCategoryDef>
+
+    <RulePackDef>
+        <defName>ESCP_Dwemer_Namer_Male</defName>
+        <rulePack>
+            <rulesStrings>
+                <li>r_name->[ESCP_Dwemer_Names_Male] [ESCP_Dwemer_Names_Last]</li>
+            </rulesStrings>
+            <rulesFiles>
+                <li>ESCP_Dwemer_Names_Male->Names/ESCP_Dwemer_Names_Male</li>
+                <li>ESCP_Dwemer_Names_Last->Names/ESCP_Dwemer_Names_Last</li>
+            </rulesFiles>
+        </rulePack>
+    </RulePackDef>
+
+    <RulePackDef>
+        <defName>ESCP_Dwemer_Namer_Female</defName>
+        <rulePack>
+            <rulesStrings>
+                <li>r_name->[ESCP_Dwemer_Names_Female] [ESCP_Dwemer_Names_Last]</li>
+            </rulesStrings>
+            <rulesFiles>
+                <li>ESCP_Dwemer_Names_Female->Names/ESCP_Dwemer_Names_Female</li>
+                <li>ESCP_Dwemer_Names_Last->Names/ESCP_Dwemer_Names_Last</li>
+            </rulesFiles>
+        </rulePack>
+    </RulePackDef>
+
+    <RulePackDef MayRequire="Ludeon.RimWorld.Ideology">
+        <defName>ESCP_LeaderTitleMaker_Dwemer</defName>
+        <rulePack>
+            <rulesStrings>
+                <li>r_leaderTitle->Chief Tonal Architect</li>
+                <li>r_leaderTitle->High Craftlord</li>
+                <li>r_leaderTitle->Clan Chief</li>
+            </rulesStrings>
+        </rulePack>
+    </RulePackDef>
+
+    <RulePackDef MayRequire="Ludeon.RimWorld.Ideology">
+        <defName>ESCP_NamerIdeo_Dwemer</defName>
+        <include>
+            <li>GlobalUtility</li>
+        </include>
+        <rulePack>
+            <rulesStrings>
+                <li>hyphenPrefix->Tonal</li>
+                <li>hyphenPrefix->Brass</li>
+                <li>hyphenPrefix->Aetherium</li>
+                <li>hyphenPrefix->Kagrenac</li>
+                <li>r_ideoName->The Rational Way</li>
+                <li>r_ideoName->The Hammer's Argument</li>
+                <li>r_ideoName->Tonal Philosophy</li>
+                <li>r_ideoName->The Rourken Inquiry</li>
+                <li>r_ideoAdjective->Rational</li>
+                <li>r_ideoAdjective->Tonal</li>
+                <li>r_memberName->Reasoner</li>
+                <li>r_memberName->Disputant</li>
+                <li>r_memberName->Scholar</li>
+            </rulesStrings>
+        </rulePack>
+    </RulePackDef>
+
+    <RulePackDef MayRequire="Ludeon.RimWorld.Ideology">
+        <defName>ESCP_NamerDeity_Dwemer</defName>
+        <rulePack>
+            <rulesStrings>
+                <li>r_deityName->Lorkhan's Heart</li>
+                <li>r_deityName->The Numidium</li>
+            </rulesStrings>
+        </rulePack>
+    </RulePackDef>
+
+    <RulePackDef MayRequire="Ludeon.RimWorld.Ideology">
+        <defName>ESCP_DeityTypeMaker_Dwemer</defName>
+        <rulePack>
+            <rulesStrings>
+                <li>r_deityType->a problem for engineers, not a thing to worship</li>
+                <li>r_deityType->the Brass God, built by mortal hands</li>
+            </rulesStrings>
+        </rulePack>
+    </RulePackDef>
+
+    <RulePackDef MayRequire="Ludeon.RimWorld.Ideology">
+        <defName>ESCP_NamerFestival_Dwemer</defName>
+        <rulePack>
+            <rulesStrings>
+                <li>r_ritualName->[festivalName]</li>
+                <li>festivalName->The Sounding</li>
+                <li>festivalName->The Hammer Day</li>
+                <li>festivalName->The Great Disputation</li>
+                <li>festivalName->The Forge Rest</li>
+                <li>festivalName->The Reading of Proofs</li>
+            </rulesStrings>
+        </rulePack>
+    </RulePackDef>
+
+</Defs>

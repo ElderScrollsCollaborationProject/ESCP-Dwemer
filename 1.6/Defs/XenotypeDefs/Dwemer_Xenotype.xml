@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <XenotypeDef ParentName="ESCP_BaseXenotype_MerWideFace">
+        <defName>ESCP_Xenotype_Dwemer</defName>
+        <label>Dwemer</label>
+        <iconPath>UI/Icons/Xenotypes/Dirtmole</iconPath>
+        <description>The Deep Elves, master engineers who denied the gods and argued with the laws of reality. They built cities of bronze under Resdayn and Skyrim, bound steam and tone to their will and treated every divine claim as a problem awaiting a proof. They are stubborn, bearded and unbearable about metalwork.</description>
+        <descriptionShort>The Deep Elves: tireless engineers who answer to reason alone.</descriptionShort>
+        <genes>
+            <li>ESCP_Gene_Dwemer_Tonal</li>
+            <li>ESCP_Gene_Dwemer_Artificer</li>
+            <li>ESCP_Gene_Dwemer_Delver</li>
+            <li>ESCP_Gene_MerLongevity</li>
+            <li>Skin_Melanin3</li>
+            <li>DarkVision</li>
+            <li>Robust</li>
+            <li>ESCP_Gene_Dwemer_Beard</li>
+        </genes>
+    </XenotypeDef>
+
+</Defs>

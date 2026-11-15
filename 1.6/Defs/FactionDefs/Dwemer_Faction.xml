@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <FactionDef ParentName="FactionBase">
+        <defName>ESCP_Faction_Clan_Rourken</defName>
+        <label>Clan Rourken</label>
+        <description>Chief Rourken refused the treaty with the Chimer, threw his war hammer to find his people a new home and took his clan to Volenfell in the Deathlands. Everyone believes they vanished with the rest. A few of them plainly did not, and the descendants keep to deep halls and mended machines, trading when it suits them. They have not changed their mind about the treaty.</description>
+        <colorSpectrum>
+            <li>(0.72, 0.5, 0.22)</li>
+        </colorSpectrum>
+        <maxConfigurableAtWorldCreation>9999</maxConfigurableAtWorldCreation>
+        <pawnSingular>Dwemer</pawnSingular>
+        <pawnsPlural>Dwemer</pawnsPlural>
+        <categoryTag>Outlander</categoryTag>
+        <settlementGenerationWeight>0.2</settlementGenerationWeight>
+        <startingCountAtWorldCreation>0</startingCountAtWorldCreation>
+        <canSiege>true</canSiege>
+        <canStageAttacks>true</canStageAttacks>
+        <leaderTitle>Clan Chief</leaderTitle>
+        <factionIconPath>World/WorldObjects/Expanding/Empire</factionIconPath>
+        <techLevel>Medieval</techLevel>
+        <fixedName>Clan Rourken</fixedName>
+        <allowedCultures>
+            <li>ESCP_Culture_Dwemer</li>
+        </allowedCultures>
+
+        <royalTitleTags>
+            <li>ESCP_Title_Dwemer</li>
+        </royalTitleTags>
+        <royalFavorLabel>Rourken Regard</royalFavorLabel>
+        <royalTitleInheritanceWorkerClass>RoyalTitleInheritanceWorker</royalTitleInheritanceWorkerClass>
+
+        <fixedIdeo>true</fixedIdeo>
+        <ideoName>Rational Way</ideoName>
+        <ideoDescription>The Dwemer have no gods. They had a long, careful look and declined. What the clan has in place of faith is a body of tonal theory older than most nations, and it is argued over daily by people who have time to finish the argument. Lessons from Red Mountain are studied the way other people study scripture.</ideoDescription>
+        <deityPresets>
+            <li>
+                <nameType><name>Lorkhan's Heart</name><type>a problem for engineers, not a thing to worship</type></nameType>
+                <gender>Male</gender>
+                <iconPath>UI/Deities/DeityGeneric</iconPath>
+            </li>
+            <li>
+                <nameType><name>The Numidium</name><type>the Brass God, built by mortal hands</type></nameType>
+                <gender>Male</gender>
+                <iconPath>UI/Deities/DeityGeneric</iconPath>
+            </li>
+        </deityPresets>
+        <styles>
+            <li>ESCP_Style_Dwemer</li>
+        </styles>
+        <forcedMemes>
+            <li MayRequire="Ludeon.RimWorld.Ideology">Structure_Ideological</li>
+            <li MayRequire="Ludeon.RimWorld.Ideology">ESCP_Meme_RationalWay</li>
+        </forcedMemes>
+        <requiredPreceptsOnly>true</requiredPreceptsOnly>
+
+        <backstoryFilters>
+            <li>
+                <categories>
+                    <li>ESCP_Backstory_Dwemer_Child</li>
+                    <li>ESCP_Backstory_Dwemer_Citizen</li>
+                    <li>ESCP_Backstory_Dwemer_Military</li>
+                    <li>ESCP_Backstory_Dwemer_Mage</li>
+                    <li>ESCP_Backstory_Dwemer_Descendant</li>
+                </categories>
+            </li>
+        </backstoryFilters>
+
+        <caravanTraderKinds>
+            <li>ESCP_Caravan_Dwemer_Trader</li>
+        </caravanTraderKinds>
+        <visitorTraderKinds>
+            <li>ESCP_Caravan_Dwemer_Trader</li>
+        </visitorTraderKinds>
+        <baseTraderKinds>
+            <li>ESCP_Caravan_Dwemer_Trader</li>
+        </baseTraderKinds>
+
+        <allowedArrivalTemperatureRange>-40~60</allowedArrivalTemperatureRange>
+        <maxPawnCostPerTotalPointsCurve>
+            <points>
+                <li>(0, 35)</li>
+                <li>(70, 50)</li>
+                <li>(700, 100)</li>
+                <li>(1300, 150)</li>
+                <li>(100000, 10000)</li>
+            </points>
+        </maxPawnCostPerTotalPointsCurve>
+
+        <pawnGroupMakers>
+            <li>
+                <kindDef>Combat</kindDef>
+                <options>
+                    <ESCP_Pawnkind_Dwemer_Melee>10</ESCP_Pawnkind_Dwemer_Melee>
+                    <ESCP_Pawnkind_Dwemer_Ranged>7</ESCP_Pawnkind_Dwemer_Ranged>
+                    <ESCP_Pawnkind_Dwemer_Mage>4</ESCP_Pawnkind_Dwemer_Mage>
+                    <ESCP_Pawnkind_Dwemer_Captain>3</ESCP_Pawnkind_Dwemer_Captain>
+                    <ESCP_Pawnkind_Dwemer_Elite>2</ESCP_Pawnkind_Dwemer_Elite>
+                </options>
+            </li>
+            <li>
+                <kindDef>Peaceful</kindDef>
+                <options>
+                    <ESCP_Pawnkind_Dwemer_Citizen>15</ESCP_Pawnkind_Dwemer_Citizen>
+                    <ESCP_Pawnkind_Dwemer_Merchant>6</ESCP_Pawnkind_Dwemer_Merchant>
+                    <ESCP_Pawnkind_Dwemer_Noble>4</ESCP_Pawnkind_Dwemer_Noble>
+                    <ESCP_Pawnkind_Dwemer_Mage>3</ESCP_Pawnkind_Dwemer_Mage>
+                </options>
+            </li>
+            <li>
+                <kindDef>Trader</kindDef>
+                <traders>
+                    <ESCP_Pawnkind_Dwemer_Trader>1</ESCP_Pawnkind_Dwemer_Trader>
+                    <ESCP_Pawnkind_Dwemer_Quartermaster>1</ESCP_Pawnkind_Dwemer_Quartermaster>
+                </traders>
+                <carriers>
+                    <Muffalo>6</Muffalo>
+                    <Dromedary>5</Dromedary>
+                    <Alpaca>3</Alpaca>
+                </carriers>
+                <guards>
+                    <ESCP_Pawnkind_Dwemer_Melee>8</ESCP_Pawnkind_Dwemer_Melee>
+                    <ESCP_Pawnkind_Dwemer_Ranged>5</ESCP_Pawnkind_Dwemer_Ranged>
+                    <ESCP_Pawnkind_Dwemer_Elite>1</ESCP_Pawnkind_Dwemer_Elite>
+                </guards>
+            </li>
+            <li>
+                <kindDef>Settlement</kindDef>
+                <options>
+                    <ESCP_Pawnkind_Dwemer_Citizen>8</ESCP_Pawnkind_Dwemer_Citizen>
+                    <ESCP_Pawnkind_Dwemer_Melee>10</ESCP_Pawnkind_Dwemer_Melee>
+                    <ESCP_Pawnkind_Dwemer_Ranged>8</ESCP_Pawnkind_Dwemer_Ranged>
+                    <ESCP_Pawnkind_Dwemer_Mage>4</ESCP_Pawnkind_Dwemer_Mage>
+                    <ESCP_Pawnkind_Dwemer_Elite>2</ESCP_Pawnkind_Dwemer_Elite>
+                </options>
+            </li>
+        </pawnGroupMakers>
+        <settlementTexturePath>World/WorldObjects/DefaultSettlement</settlementTexturePath>
+
+        <modExtensions Inherit="False">
+            <li Class="ESCP.Factions.FactionExtension_FlavorOverride">
+                <newLabel>Clan Rourken</newLabel>
+            </li>
+            <li Class="ESCP.Factions.FactionExtension_BannedArrivalModes">
+                <arrivalModes>
+                    <li>EdgeDrop</li>
+                    <li>EdgeDropGroups</li>
+                    <li>CenterDrop</li>
+                    <li>RandomDrop</li>
+                </arrivalModes>
+            </li>
+        </modExtensions>
+    </FactionDef>
+
+</Defs>

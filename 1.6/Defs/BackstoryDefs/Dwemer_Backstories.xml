@@ -1,0 +1,2364 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Dwemer_Long_Hall</defName>
+        <identifier>ESCP_Backstory_Dwemer_Long_Hall</identifier>
+        <slot>Childhood</slot>
+        <title>long hall child</title>
+        <titleShort>Hall child</titleShort>
+        <description>[PAWN_nameDef] grew up under lamps that had burned for a thousand years. The sky was something in old engravings, and the idea of weather seemed like an obvious design flaw.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Dwemer_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Crafting>2</Crafting>
+            <Mining>2</Mining>
+        </skillGains>
+        <bodyTypeMale>Hulk</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Dwemer_Oil_Runner</defName>
+        <identifier>ESCP_Backstory_Dwemer_Oil_Runner</identifier>
+        <slot>Childhood</slot>
+        <title>oil runner</title>
+        <titleShort>Oil runner</titleShort>
+        <description>Children small enough to fit inside the great engines did useful work inside them. [PAWN_nameDef] knows the sound a bad bearing makes and still has the scars to show how [PAWN_pronoun] learned.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Dwemer_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Crafting>3</Crafting>
+            <Construction>1</Construction>
+        </skillGains>
+        <bodyTypeMale>Hulk</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Dwemer_Proofs</defName>
+        <identifier>ESCP_Backstory_Dwemer_Proofs</identifier>
+        <slot>Childhood</slot>
+        <title>student of proofs</title>
+        <titleShort>Student</titleShort>
+        <description>[PAWN_nameDef] was expected to prove every statement at the family table, including requests to pass the salt. It made for an unusual education and very quiet dinners.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Dwemer_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Intellectual>4</Intellectual>
+        </skillGains>
+        <bodyTypeMale>Hulk</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Dwemer_Adult_Warden</defName>
+        <identifier>ESCP_Backstory_Dwemer_Adult_Warden</identifier>
+        <slot>Adulthood</slot>
+        <title>hall warden</title>
+        <titleShort>Warden</titleShort>
+        <description>[PAWN_nameDef] stood at the lower gates, holding them against things that came up from the deep dark. Falmer were the usual problem. They were not the worst of them.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Dwemer_Military</li>
+        </spawnCategories>
+        <skillGains>
+            <Melee>6</Melee>
+            <Construction>1</Construction>
+        </skillGains>
+        <bodyTypeMale>Hulk</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Dwemer_Adult_Bolt</defName>
+        <identifier>ESCP_Backstory_Dwemer_Adult_Bolt</identifier>
+        <slot>Adulthood</slot>
+        <title>gallery marksman</title>
+        <titleShort>Marksman</titleShort>
+        <description>[PAWN_nameDef] shot from narrow galleries built for the purpose, with a crossbow [PAWN_pronoun] had taken apart and improved twice. [PAWN_pronoun] does not understand why nobody else bothers doing that.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Dwemer_Military</li>
+        </spawnCategories>
+        <skillGains>
+            <Shooting>6</Shooting>
+            <Crafting>2</Crafting>
+        </skillGains>
+        <bodyTypeMale>Hulk</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Dwemer_Adult_Automaton</defName>
+        <identifier>ESCP_Backstory_Dwemer_Adult_Automaton</identifier>
+        <slot>Adulthood</slot>
+        <title>centurion mechanic</title>
+        <titleShort>Mechanic</titleShort>
+        <description>[PAWN_nameDef] kept the clan's last few centurions walking with salvaged parts and dark language. Most of them have outlived several of their mechanics already.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Dwemer_Descendant</li>
+        </spawnCategories>
+        <skillGains>
+            <Crafting>6</Crafting>
+            <Intellectual>3</Intellectual>
+        </skillGains>
+        <bodyTypeMale>Hulk</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Dwemer_Adult_Tonal</defName>
+        <identifier>ESCP_Backstory_Dwemer_Adult_Tonal</identifier>
+        <slot>Adulthood</slot>
+        <title>tonal theorist</title>
+        <titleShort>Theorist</titleShort>
+        <description>[PAWN_nameDef] spent eighty years working on a single harmonic proof, finished it and found a mistake in the third line. [PAWN_pronoun] is now somewhat more relaxed about the whole subject.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Dwemer_Mage</li>
+        </spawnCategories>
+        <skillGains>
+            <Intellectual>8</Intellectual>
+        </skillGains>
+        <bodyTypeMale>Hulk</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <workDisables>ManualSkilled</workDisables>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Dwemer_Adult_Smith</defName>
+        <identifier>ESCP_Backstory_Dwemer_Adult_Smith</identifier>
+        <slot>Adulthood</slot>
+        <title>bronze smith</title>
+        <titleShort>Smith</titleShort>
+        <description>Dwemer metal keeps its shine because of how it is worked, and [PAWN_nameDef] has never told anyone outside the clan how that is done. People have asked, some of them unpleasantly.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Dwemer_Citizen</li>
+        </spawnCategories>
+        <skillGains>
+            <Crafting>7</Crafting>
+            <Mining>1</Mining>
+        </skillGains>
+        <bodyTypeMale>Hulk</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Dwemer_Adult_Surveyor</defName>
+        <identifier>ESCP_Backstory_Dwemer_Adult_Surveyor</identifier>
+        <slot>Adulthood</slot>
+        <title>deep surveyor</title>
+        <titleShort>Surveyor</titleShort>
+        <description>[PAWN_nameDef] mapped new tunnels and cataloged old ones, marking collapses and sealing the galleries that should stay sealed. There are a few [PAWN_pronoun] will not discuss.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Dwemer_Citizen</li>
+        </spawnCategories>
+        <skillGains>
+            <Mining>6</Mining>
+            <Construction>2</Construction>
+        </skillGains>
+        <bodyTypeMale>Hulk</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Dwemer_Bronze_Child</defName>
+        <identifier>ESCP_Backstory_Dwemer_Bronze_Child</identifier>
+        <slot>Childhood</slot>
+        <title>bronze quarter child</title>
+        <titleShort>Bronze child</titleShort>
+        <description>[PAWN_nameDef] grew up where the pipes ran hottest, learning arithmetic from pressure gauges. The first word [PAWN_pronoun] ever spelled was on a warning plate.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Dwemer_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Crafting>2</Crafting>
+            <Intellectual>2</Intellectual>
+        </skillGains>
+        <bodyTypeMale>Hulk</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Dwemer_Debate_Child</defName>
+        <identifier>ESCP_Backstory_Dwemer_Debate_Child</identifier>
+        <slot>Childhood</slot>
+        <title>disputation prodigy</title>
+        <titleShort>Prodigy</titleShort>
+        <description>At nine, [PAWN_nameDef] argued a Clan Rkund elder to a standstill on a point of tonal law. The elder never forgave it, and that was considered high praise.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Dwemer_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Intellectual>3</Intellectual>
+            <Social>1</Social>
+        </skillGains>
+        <bodyTypeMale>Hulk</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Dwemer_Mine_Child</defName>
+        <identifier>ESCP_Backstory_Dwemer_Mine_Child</identifier>
+        <slot>Childhood</slot>
+        <title>lower gallery child</title>
+        <titleShort>Gallery</titleShort>
+        <description>Falmer thralls did the worst of the digging, and [PAWN_nameDef] grew up keeping tallies on them. Nobody in the family ever thought it needed justifying.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Dwemer_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Mining>3</Mining>
+            <Intellectual>1</Intellectual>
+        </skillGains>
+        <bodyTypeMale>Hulk</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Dwemer_Clockwork_Child</defName>
+        <identifier>ESCP_Backstory_Dwemer_Clockwork_Child</identifier>
+        <slot>Childhood</slot>
+        <title>spider tinkerer</title>
+        <titleShort>Tinkerer</titleShort>
+        <description>[PAWN_nameDef] rebuilt a broken spider worker at eleven and made it follow [PAWN_objective] around the hall, which a few relatives found less charming than others.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Dwemer_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Crafting>3</Crafting>
+            <Construction>1</Construction>
+        </skillGains>
+        <bodyTypeMale>Hulk</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Dwemer_Sound_Child</defName>
+        <identifier>ESCP_Backstory_Dwemer_Sound_Child</identifier>
+        <slot>Childhood</slot>
+        <title>tuner's apprentice</title>
+        <titleShort>Tuner</titleShort>
+        <description>The great resonators had to be kept in pitch, and small children have good ears. [PAWN_nameDef] spent years in the tuning shafts, and still winces at most music.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Dwemer_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Intellectual>2</Intellectual>
+            <Artistic>2</Artistic>
+        </skillGains>
+        <bodyTypeMale>Hulk</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Dwemer_Kragen_Child</defName>
+        <identifier>ESCP_Backstory_Dwemer_Kragen_Child</identifier>
+        <slot>Childhood</slot>
+        <title>Clan Kragen child</title>
+        <titleShort>Kragen</titleShort>
+        <description>[PAWN_nameDef]'s people came west to Skyrim following the Rourken and made their home at Arkngthamz, where the elders never stopped complaining about the cold.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Dwemer_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Mining>2</Mining>
+            <Melee>2</Melee>
+        </skillGains>
+        <bodyTypeMale>Hulk</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Dwemer_Adult_Lawyer</defName>
+        <identifier>ESCP_Backstory_Dwemer_Adult_Lawyer</identifier>
+        <slot>Adulthood</slot>
+        <title>disputant of the halls</title>
+        <titleShort>Disputant</titleShort>
+        <description>Dwemer clans settled their feuds with proofs far more often than swords. [PAWN_nameDef] argued cases that ran for decades and won most of those [PAWN_pronoun] lived to see finished.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Dwemer_Citizen</li>
+        </spawnCategories>
+        <skillGains>
+            <Social>6</Social>
+            <Intellectual>3</Intellectual>
+        </skillGains>
+        <bodyTypeMale>Hulk</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Dwemer_Adult_Steam_Fitter</defName>
+        <identifier>ESCP_Backstory_Dwemer_Adult_Steam_Fitter</identifier>
+        <slot>Adulthood</slot>
+        <title>steam fitter</title>
+        <titleShort>Fitter</titleShort>
+        <description>[PAWN_nameDef] kept the boilers under a whole quarter from killing anyone. The job is entirely invisible until the day it is not.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Dwemer_Citizen</li>
+        </spawnCategories>
+        <skillGains>
+            <Construction>7</Construction>
+            <Crafting>2</Crafting>
+        </skillGains>
+        <bodyTypeMale>Hulk</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Dwemer_Adult_Aetherium</defName>
+        <identifier>ESCP_Backstory_Dwemer_Adult_Aetherium</identifier>
+        <slot>Adulthood</slot>
+        <title>aetherium smelter</title>
+        <titleShort>Smelter</titleShort>
+        <description>[PAWN_nameDef] worked the Aetherium Forge at Arkngthamz, where four clans fought to control a metal that nobody had finished understanding.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Dwemer_Citizen</li>
+        </spawnCategories>
+        <skillGains>
+            <Crafting>7</Crafting>
+            <Intellectual>1</Intellectual>
+        </skillGains>
+        <bodyTypeMale>Hulk</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Dwemer_Adult_Lamp_Keeper</defName>
+        <identifier>ESCP_Backstory_Dwemer_Adult_Lamp_Keeper</identifier>
+        <slot>Adulthood</slot>
+        <title>lamp warden</title>
+        <titleShort>Lamp warden</titleShort>
+        <description>[PAWN_nameDef] looked after thousands of lamps fed from deep in the rock. Most of them will outlast the people who lit them, which is the point.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Dwemer_Citizen</li>
+        </spawnCategories>
+        <skillGains>
+            <Construction>5</Construction>
+            <Mining>3</Mining>
+        </skillGains>
+        <bodyTypeMale>Hulk</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Dwemer_Adult_Fungus_Farmer</defName>
+        <identifier>ESCP_Backstory_Dwemer_Adult_Fungus_Farmer</identifier>
+        <slot>Adulthood</slot>
+        <title>cavern farmer</title>
+        <titleShort>Farmer</titleShort>
+        <description>Even engineers eat. [PAWN_nameDef] managed the mushroom galleries with irrigation tables that would make a surface farmer weep.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Dwemer_Citizen</li>
+        </spawnCategories>
+        <skillGains>
+            <Plants>7</Plants>
+            <Intellectual>1</Intellectual>
+        </skillGains>
+        <bodyTypeMale>Hulk</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Dwemer_Adult_Slave_Master</defName>
+        <identifier>ESCP_Backstory_Dwemer_Adult_Slave_Master</identifier>
+        <slot>Adulthood</slot>
+        <title>thrall overseer</title>
+        <titleShort>Overseer</titleShort>
+        <description>[PAWN_nameDef] managed Falmer labor in the deep works, and thought of it as a problem of logistics. The Snow Elves have a different word for it.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Dwemer_Citizen</li>
+        </spawnCategories>
+        <skillGains>
+            <Social>4</Social>
+            <Mining>3</Mining>
+        </skillGains>
+        <bodyTypeMale>Hulk</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <workDisables>Caring</workDisables>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Dwemer_Adult_Volendrung</defName>
+        <identifier>ESCP_Backstory_Dwemer_Adult_Volendrung</identifier>
+        <slot>Adulthood</slot>
+        <title>Rourken hammerman</title>
+        <titleShort>Hammerman</titleShort>
+        <description>[PAWN_nameDef] served in the warhost of a clan that would throw a hammer across a continent rather than sign a bad treaty.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Dwemer_Military</li>
+        </spawnCategories>
+        <skillGains>
+            <Melee>7</Melee>
+            <Crafting>1</Crafting>
+        </skillGains>
+        <bodyTypeMale>Hulk</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Dwemer_Adult_Dragon_Wars</defName>
+        <identifier>ESCP_Backstory_Dwemer_Adult_Dragon_Wars</identifier>
+        <slot>Adulthood</slot>
+        <title>First Council veteran</title>
+        <titleShort>Veteran</titleShort>
+        <description>[PAWN_nameDef] fought on the fields of Resdayn alongside Chimer and Dwemer alike, against the Nords, and later against those same Chimer. [PAWN_pronoun] keeps the maps.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Dwemer_Military</li>
+        </spawnCategories>
+        <skillGains>
+            <Melee>4</Melee>
+            <Shooting>4</Shooting>
+        </skillGains>
+        <bodyTypeMale>Hulk</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Dwemer_Adult_Ballista</defName>
+        <identifier>ESCP_Backstory_Dwemer_Adult_Ballista</identifier>
+        <slot>Adulthood</slot>
+        <title>ballista crewman</title>
+        <titleShort>Crewman</titleShort>
+        <description>The great bolt throwers on the upper gates needed careful sums and steady nerves. [PAWN_nameDef] had both, and rather enjoyed showing off the first.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Dwemer_Military</li>
+        </spawnCategories>
+        <skillGains>
+            <Shooting>6</Shooting>
+            <Intellectual>2</Intellectual>
+        </skillGains>
+        <bodyTypeMale>Hulk</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Dwemer_Adult_Gate_Sentinel</defName>
+        <identifier>ESCP_Backstory_Dwemer_Adult_Gate_Sentinel</identifier>
+        <slot>Adulthood</slot>
+        <title>gate sentinel</title>
+        <titleShort>Sentinel</titleShort>
+        <description>[PAWN_nameDef] walked beside the centurions on the gate. They never complained about the hours, and neither did [PAWN_pronoun].</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Dwemer_Military</li>
+        </spawnCategories>
+        <skillGains>
+            <Melee>5</Melee>
+            <Construction>2</Construction>
+        </skillGains>
+        <bodyTypeMale>Hulk</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Dwemer_Adult_Soul_Engineer</defName>
+        <identifier>ESCP_Backstory_Dwemer_Adult_Soul_Engineer</identifier>
+        <slot>Adulthood</slot>
+        <title>animunculi binder</title>
+        <titleShort>Binder</titleShort>
+        <description>A working machine needs a spark, and [PAWN_nameDef] knew where to find them. Soul gems were a bookkeeping item, and [PAWN_pronoun] kept the books.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Dwemer_Mage</li>
+        </spawnCategories>
+        <skillGains>
+            <Intellectual>6</Intellectual>
+            <Crafting>3</Crafting>
+        </skillGains>
+        <bodyTypeMale>Hulk</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Dwemer_Adult_Astronomer</defName>
+        <identifier>ESCP_Backstory_Dwemer_Adult_Astronomer</identifier>
+        <slot>Adulthood</slot>
+        <title>Mzulft astronomer</title>
+        <titleShort>Astronomer</titleShort>
+        <description>The Oculory at Mzulft focused light through crystal to study what lay behind the sky. [PAWN_nameDef] measured the gods up there and published the results.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Dwemer_Mage</li>
+        </spawnCategories>
+        <skillGains>
+            <Intellectual>8</Intellectual>
+        </skillGains>
+        <bodyTypeMale>Hulk</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <workDisables>ManualDumb</workDisables>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Dwemer_Adult_Kagrenac_Pupil</defName>
+        <identifier>ESCP_Backstory_Dwemer_Adult_Kagrenac_Pupil</identifier>
+        <slot>Adulthood</slot>
+        <title>Kagrenac's pupil</title>
+        <titleShort>Pupil</titleShort>
+        <description>[PAWN_nameDef] studied under the Chief Tonal Architect and wrote out his sums. Some of those pages have since been taken into the Heart's chamber, and [PAWN_pronoun] has wondered about them ever since.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Dwemer_Mage</li>
+        </spawnCategories>
+        <skillGains>
+            <Intellectual>7</Intellectual>
+            <Social>1</Social>
+        </skillGains>
+        <bodyTypeMale>Hulk</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Dwemer_Adult_Sealed_Vault</defName>
+        <identifier>ESCP_Backstory_Dwemer_Adult_Sealed_Vault</identifier>
+        <slot>Adulthood</slot>
+        <title>vault reader</title>
+        <titleShort>Reader</titleShort>
+        <description>[PAWN_nameDef] catalogued the sealed vaults of Bthardamz, including one marked only with a warning in a hand [PAWN_pronoun] recognized as [PAWN_possessive] own.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Dwemer_Mage</li>
+        </spawnCategories>
+        <skillGains>
+            <Intellectual>6</Intellectual>
+            <Mining>1</Mining>
+        </skillGains>
+        <bodyTypeMale>Hulk</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Dwemer_Adult_Salvager</defName>
+        <identifier>ESCP_Backstory_Dwemer_Adult_Salvager</identifier>
+        <slot>Adulthood</slot>
+        <title>ruin salvager</title>
+        <titleShort>Salvager</titleShort>
+        <description>Generations after the great vanishing, [PAWN_nameDef] picks through halls that [PAWN_possessive] own ancestors designed. The family trade is now more like grave robbing.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Dwemer_Descendant</li>
+        </spawnCategories>
+        <skillGains>
+            <Crafting>5</Crafting>
+            <Mining>3</Mining>
+        </skillGains>
+        <bodyTypeMale>Hulk</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Dwemer_Adult_Heir_Argument</defName>
+        <identifier>ESCP_Backstory_Dwemer_Adult_Heir_Argument</identifier>
+        <slot>Adulthood</slot>
+        <title>keeper of the treaty</title>
+        <titleShort>Keeper</titleShort>
+        <description>[PAWN_nameDef]'s family still holds a copy of the treaty Chief Rourken refused, kept out in plain view for the sake of argument. Clan disputes have started over less.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Dwemer_Descendant</li>
+        </spawnCategories>
+        <skillGains>
+            <Social>5</Social>
+            <Intellectual>3</Intellectual>
+        </skillGains>
+        <bodyTypeMale>Hulk</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Dwemer_Adult_Deathlands</defName>
+        <identifier>ESCP_Backstory_Dwemer_Adult_Deathlands</identifier>
+        <slot>Adulthood</slot>
+        <title>Deathlands delver</title>
+        <titleShort>Delver</titleShort>
+        <description>The clan's oldest stories end at Volenfell. [PAWN_nameDef] went looking for the place itself, and came back with nothing but a sunburn and very firm views on Hammerfell.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Dwemer_Descendant</li>
+        </spawnCategories>
+        <skillGains>
+            <Melee>4</Melee>
+            <Mining>3</Mining>
+        </skillGains>
+        <bodyTypeMale>Hulk</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Dwemer_Child_Mzulft_Lens_Polisher</defName>
+        <identifier>ESCP_Backstory_Dwemer_Child_Mzulft_Lens_Polisher</identifier>
+        <slot>Childhood</slot>
+        <title>Mzulft lens polisher</title>
+        <titleShort>Polisher</titleShort>
+        <description>Children have small hands, and the great lenses at Mzulft have small flaws. [PAWN_nameDef] spent years with a cloth and a very stern instructor.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Dwemer_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Crafting>3</Crafting>
+            <Intellectual>1</Intellectual>
+        </skillGains>
+        <bodyTypeMale>Hulk</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Dwemer_Child_Nchuand_Zel_Dockling</defName>
+        <identifier>ESCP_Backstory_Dwemer_Child_Nchuand_Zel_Dockling</identifier>
+        <slot>Childhood</slot>
+        <title>Nchuand-Zel dockling</title>
+        <titleShort>Dockling</titleShort>
+        <description>Water from the deep lake at Nchuand-Zel ran through more pipes than a child could count. [PAWN_nameDef] tried counting them anyway and was made to start again.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Dwemer_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Crafting>2</Crafting>
+            <Construction>2</Construction>
+        </skillGains>
+        <bodyTypeMale>Hulk</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Dwemer_Child_Arkngthamz_Echo_Tester</defName>
+        <identifier>ESCP_Backstory_Dwemer_Child_Arkngthamz_Echo_Tester</identifier>
+        <slot>Childhood</slot>
+        <title>Arkngthamz echo tester</title>
+        <titleShort>Echo tester</titleShort>
+        <description>Halls at Arkngthamz were built to be heard as well as seen. [PAWN_nameDef] walked them singing a single note while the elders took measurements.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Dwemer_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Intellectual>2</Intellectual>
+            <Artistic>2</Artistic>
+        </skillGains>
+        <bodyTypeMale>Hulk</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Dwemer_Child_Alftand_Kitchen_Child</defName>
+        <identifier>ESCP_Backstory_Dwemer_Child_Alftand_Kitchen_Child</identifier>
+        <slot>Childhood</slot>
+        <title>Alftand kitchen child</title>
+        <titleShort>Kitchen child</titleShort>
+        <description>Far under the snow at Alftand, meals came up from the fungus halls on schedule. [PAWN_nameDef] rode the lifts with the trays and learned every floor.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Dwemer_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Cooking>3</Cooking>
+            <Mining>1</Mining>
+        </skillGains>
+        <bodyTypeMale>Hulk</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Dwemer_Child_Raldbthar_Gear_Counter</defName>
+        <identifier>ESCP_Backstory_Dwemer_Child_Raldbthar_Gear_Counter</identifier>
+        <slot>Childhood</slot>
+        <title>Raldbthar gear counter</title>
+        <titleShort>Gear counter</titleShort>
+        <description>At Raldbthar, a child's first paid job was counting teeth on gears nobody else had time to check. [PAWN_nameDef] once found an error, and got a small medal for it.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Dwemer_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Intellectual>3</Intellectual>
+            <Crafting>1</Crafting>
+        </skillGains>
+        <bodyTypeMale>Hulk</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Dwemer_Child_Blackreach_Lamp_Child</defName>
+        <identifier>ESCP_Backstory_Dwemer_Child_Blackreach_Lamp_Child</identifier>
+        <slot>Childhood</slot>
+        <title>Blackreach lamp child</title>
+        <titleShort>Lamp child</titleShort>
+        <description>Blackreach had its own sky of glowing fungus, and [PAWN_nameDef] thought that was the normal sort. The first real sunlight, years later, was a disappointment.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Dwemer_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Mining>2</Mining>
+            <Plants>2</Plants>
+        </skillGains>
+        <bodyTypeMale>Hulk</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Dwemer_Child_Bthar_Zel_Apprentice</defName>
+        <identifier>ESCP_Backstory_Dwemer_Child_Bthar_Zel_Apprentice</identifier>
+        <slot>Childhood</slot>
+        <title>Bthar-zel apprentice</title>
+        <titleShort>Apprentice</titleShort>
+        <description>Bthar-zel's clan was proud of its smiths. [PAWN_nameDef] started young, carrying coal and being told that nothing made in another hold was worth a second look.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Dwemer_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Crafting>3</Crafting>
+            <Social>1</Social>
+        </skillGains>
+        <bodyTypeMale>Hulk</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Dwemer_Child_Vvardenfell_Tunnel_Child</defName>
+        <identifier>ESCP_Backstory_Dwemer_Child_Vvardenfell_Tunnel_Child</identifier>
+        <slot>Childhood</slot>
+        <title>Vvardenfell tunnel child</title>
+        <titleShort>Tunnel child</titleShort>
+        <description>Before Red Mountain's last war, Dwemer holds lay under much of the island. [PAWN_nameDef] grew up with the warm stone and never quite trusted any other kind.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Dwemer_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Mining>3</Mining>
+            <Construction>1</Construction>
+        </skillGains>
+        <bodyTypeMale>Hulk</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Dwemer_Child_Volenfell_Sand_Sweeper</defName>
+        <identifier>ESCP_Backstory_Dwemer_Child_Volenfell_Sand_Sweeper</identifier>
+        <slot>Childhood</slot>
+        <title>Volenfell sand-sweeper</title>
+        <titleShort>Sand-sweeper</titleShort>
+        <description>Hammerfell's sand gets into everything, including a sealed Dwemer hold. [PAWN_nameDef] cleaned it from the gears every morning, and it was back again the next.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Dwemer_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Construction>2</Construction>
+            <Mining>2</Mining>
+        </skillGains>
+        <bodyTypeMale>Hulk</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Dwemer_Child_Bamz_Amschend_Pipefitter</defName>
+        <identifier>ESCP_Backstory_Dwemer_Child_Bamz_Amschend_Pipefitter</identifier>
+        <slot>Childhood</slot>
+        <title>Bamz-Amschend pipefitter</title>
+        <titleShort>Pipefitter</titleShort>
+        <description>Bamz-Amschend sat under what would one day be Mournhold, full of steam and clever doors. [PAWN_nameDef] crawled through the pipes checking joints.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Dwemer_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Construction>3</Construction>
+            <Crafting>1</Crafting>
+        </skillGains>
+        <bodyTypeMale>Hulk</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Dwemer_Child_First_Proof</defName>
+        <identifier>ESCP_Backstory_Dwemer_Child_First_Proof</identifier>
+        <slot>Childhood</slot>
+        <title>first proof</title>
+        <titleShort>First proof</titleShort>
+        <description>By age seven, every Dwemer child had to prove something true to the satisfaction of a stranger. [PAWN_nameDef] proved that the stranger was wrong, which was accepted.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Dwemer_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Intellectual>4</Intellectual>
+        </skillGains>
+        <bodyTypeMale>Hulk</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Dwemer_Child_Clan_Archive_Runner</defName>
+        <identifier>ESCP_Backstory_Dwemer_Child_Clan_Archive_Runner</identifier>
+        <slot>Childhood</slot>
+        <title>clan archive runner</title>
+        <titleShort>Archive runner</titleShort>
+        <description>Disputes in the clan halls often came down to what an ancestor had actually written. [PAWN_nameDef] ran to fetch the tablet, and got to listen to the shouting.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Dwemer_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Intellectual>2</Intellectual>
+            <Social>2</Social>
+        </skillGains>
+        <bodyTypeMale>Hulk</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Dwemer_Child_Gear_Tooth_Filer</defName>
+        <identifier>ESCP_Backstory_Dwemer_Child_Gear_Tooth_Filer</identifier>
+        <slot>Childhood</slot>
+        <title>gear-tooth filer</title>
+        <titleShort>Filer</titleShort>
+        <description>Metal shavings went in the hair, the food and the eyes. Filing gear teeth by hand was unglamorous, but [PAWN_nameDef] became very good at getting them true.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Dwemer_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Crafting>4</Crafting>
+        </skillGains>
+        <bodyTypeMale>Hulk</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Dwemer_Child_Spheres_Shadow</defName>
+        <identifier>ESCP_Backstory_Dwemer_Child_Spheres_Shadow</identifier>
+        <slot>Childhood</slot>
+        <title>sphere's shadow</title>
+        <titleShort>Sphere's shadow</titleShort>
+        <description>Sentry spheres patrolled the hall and did not much care about children, so long as they didn't touch. [PAWN_nameDef] touched one and has a small scar for it.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Dwemer_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Crafting>2</Crafting>
+            <Melee>2</Melee>
+        </skillGains>
+        <bodyTypeMale>Hulk</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Dwemer_Child_Steam_Valve_Child</defName>
+        <identifier>ESCP_Backstory_Dwemer_Child_Steam_Valve_Child</identifier>
+        <slot>Childhood</slot>
+        <title>steam-valve child</title>
+        <titleShort>Valve child</titleShort>
+        <description>An unattended valve can kill a hall. [PAWN_nameDef] was trusted to read one pressure gauge at age six and took that trust extremely seriously.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Dwemer_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Construction>3</Construction>
+            <Intellectual>1</Intellectual>
+        </skillGains>
+        <bodyTypeMale>Hulk</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Dwemer_Child_Fungus_Farm_Child</defName>
+        <identifier>ESCP_Backstory_Dwemer_Child_Fungus_Farm_Child</identifier>
+        <slot>Childhood</slot>
+        <title>fungus farm child</title>
+        <titleShort>Farm child</titleShort>
+        <description>Pale caps fed the holds, and they needed turning and damp. [PAWN_nameDef] worked the beds with a small rake and got told that farming was a branch of chemistry.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Dwemer_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Plants>3</Plants>
+            <Cooking>1</Cooking>
+        </skillGains>
+        <bodyTypeMale>Hulk</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Dwemer_Child_Ore_Cart_Rider</defName>
+        <identifier>ESCP_Backstory_Dwemer_Child_Ore_Cart_Rider</identifier>
+        <slot>Childhood</slot>
+        <title>ore cart rider</title>
+        <titleShort>Cart rider</titleShort>
+        <description>The ore carts ran down a long incline toward the smelters. [PAWN_nameDef] was forbidden to ride them, and did so for years with only one broken arm.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Dwemer_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Mining>3</Mining>
+            <Melee>1</Melee>
+        </skillGains>
+        <bodyTypeMale>Hulk</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Dwemer_Child_Tonal_Choir_Child</defName>
+        <identifier>ESCP_Backstory_Dwemer_Child_Tonal_Choir_Child</identifier>
+        <slot>Childhood</slot>
+        <title>tonal choir child</title>
+        <titleShort>Choir child</titleShort>
+        <description>Tuning a resonator needs someone who can hold pitch without wavering. [PAWN_nameDef] sang one note for a very long time so that older Dwemer could break things with it.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Dwemer_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Artistic>3</Artistic>
+            <Intellectual>1</Intellectual>
+        </skillGains>
+        <bodyTypeMale>Hulk</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Dwemer_Child_Clan_Rourken_Runt</defName>
+        <identifier>ESCP_Backstory_Dwemer_Child_Clan_Rourken_Runt</identifier>
+        <slot>Childhood</slot>
+        <title>Clan Rourken runt</title>
+        <titleShort>Runt</titleShort>
+        <description>Rourken children learned about hammers very early. As the smallest of the batch, [PAWN_nameDef] developed a great interest in hitting first.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Dwemer_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Melee>3</Melee>
+            <Crafting>1</Crafting>
+        </skillGains>
+        <bodyTypeMale>Hulk</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Dwemer_Child_Council_Hearing_Page</defName>
+        <identifier>ESCP_Backstory_Dwemer_Child_Council_Hearing_Page</identifier>
+        <slot>Childhood</slot>
+        <title>Council hearing page</title>
+        <titleShort>Page</titleShort>
+        <description>Councils could run for weeks over a word. [PAWN_nameDef] brought the water, saw the arguments up close and decided early that nothing had ever really been settled.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Dwemer_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Social>3</Social>
+            <Intellectual>1</Intellectual>
+        </skillGains>
+        <bodyTypeMale>Hulk</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Dwemer_Child_Chimer_Tongue_Learner</defName>
+        <identifier>ESCP_Backstory_Dwemer_Child_Chimer_Tongue_Learner</identifier>
+        <slot>Childhood</slot>
+        <title>chimer-tongue learner</title>
+        <titleShort>Language student</titleShort>
+        <description>With the Chimer living just above, somebody had to learn their speech. [PAWN_nameDef] was taught it young and found the insults most useful.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Dwemer_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Social>2</Social>
+            <Intellectual>2</Intellectual>
+        </skillGains>
+        <bodyTypeMale>Hulk</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Dwemer_Child_Thralls_Friend</defName>
+        <identifier>ESCP_Backstory_Dwemer_Child_Thralls_Friend</identifier>
+        <slot>Childhood</slot>
+        <title>thrall's friend</title>
+        <titleShort>Thrall's friend</titleShort>
+        <description>Falmer thralls were not meant to be spoken to. [PAWN_nameDef] did so anyway, with a shared meal at the deep shaft, and nobody ever told the overseer.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Dwemer_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Social>2</Social>
+            <Mining>2</Mining>
+        </skillGains>
+        <bodyTypeMale>Hulk</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Dwemer_Child_Metal_Taster</defName>
+        <identifier>ESCP_Backstory_Dwemer_Child_Metal_Taster</identifier>
+        <slot>Childhood</slot>
+        <title>metal taster</title>
+        <titleShort>Taster</titleShort>
+        <description>An old smith could tell the blend of an alloy by licking it. [PAWN_nameDef] picked up that habit, along with a strange taste in the mouth that never left.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Dwemer_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Crafting>2</Crafting>
+            <Intellectual>2</Intellectual>
+        </skillGains>
+        <bodyTypeMale>Hulk</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Dwemer_Child_Gallery_Sketcher</defName>
+        <identifier>ESCP_Backstory_Dwemer_Child_Gallery_Sketcher</identifier>
+        <slot>Childhood</slot>
+        <title>gallery sketcher</title>
+        <titleShort>Sketcher</titleShort>
+        <description>Every doorway in the hold had a pattern that meant something. [PAWN_nameDef] copied them all onto slate and had to be told, gently, that it wasn't a game.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Dwemer_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Artistic>3</Artistic>
+            <Construction>1</Construction>
+        </skillGains>
+        <bodyTypeMale>Hulk</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Dwemer_Child_Lift_Operators_Child</defName>
+        <identifier>ESCP_Backstory_Dwemer_Child_Lift_Operators_Child</identifier>
+        <slot>Childhood</slot>
+        <title>lift operator's child</title>
+        <titleShort>Lift child</titleShort>
+        <description>The lift to the surface took an hour and was a good place to overhear gossip. [PAWN_nameDef] sat with a parent on the top step and heard all of it.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Dwemer_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Construction>2</Construction>
+            <Social>2</Social>
+        </skillGains>
+        <bodyTypeMale>Hulk</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Dwemer_Child_Automaton_Oiler</defName>
+        <identifier>ESCP_Backstory_Dwemer_Child_Automaton_Oiler</identifier>
+        <slot>Childhood</slot>
+        <title>automaton oiler</title>
+        <titleShort>Oiler</titleShort>
+        <description>The oil was the same in the machines and on the bread, or so said the older children. [PAWN_nameDef] found out the truth the hard way and got over it within a week.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Dwemer_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Crafting>3</Crafting>
+            <Cooking>1</Cooking>
+        </skillGains>
+        <bodyTypeMale>Hulk</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Dwemer_Child_Deep_Shaft_Listener</defName>
+        <identifier>ESCP_Backstory_Dwemer_Child_Deep_Shaft_Listener</identifier>
+        <slot>Childhood</slot>
+        <title>deep-shaft listener</title>
+        <titleShort>Listener</titleShort>
+        <description>Rock makes sounds before it moves. An old surveyor taught [PAWN_nameDef] to put an ear to the shaft wall, and the hall evacuated twice because of that child.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Dwemer_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Mining>2</Mining>
+            <Intellectual>2</Intellectual>
+        </skillGains>
+        <bodyTypeMale>Hulk</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Dwemer_Child_Heir_To_A_Feud</defName>
+        <identifier>ESCP_Backstory_Dwemer_Child_Heir_To_A_Feud</identifier>
+        <slot>Childhood</slot>
+        <title>heir to a feud</title>
+        <titleShort>Feud heir</titleShort>
+        <description>Two clans had been arguing over one water rights tablet for six hundred years. [PAWN_nameDef] inherited the argument at birth, and a pair of bronze knuckles at ten.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Dwemer_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Melee>2</Melee>
+            <Social>2</Social>
+        </skillGains>
+        <bodyTypeMale>Hulk</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Dwemer_Child_Hall_Orphan</defName>
+        <identifier>ESCP_Backstory_Dwemer_Child_Hall_Orphan</identifier>
+        <slot>Childhood</slot>
+        <title>hall orphan</title>
+        <titleShort>Hall orphan</titleShort>
+        <description>An accident in the smelters left [PAWN_nameDef] with no family, and with a place at the clan's table regardless. Dwemer waste nothing, including children.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Dwemer_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Crafting>2</Crafting>
+            <Melee>1</Melee>
+            <Mining>1</Mining>
+        </skillGains>
+        <bodyTypeMale>Hulk</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Dwemer_Child_False_Doors_Expert</defName>
+        <identifier>ESCP_Backstory_Dwemer_Child_False_Doors_Expert</identifier>
+        <slot>Childhood</slot>
+        <title>false doors expert</title>
+        <titleShort>Door expert</titleShort>
+        <description>Half the doors at home were puzzles, and the rest were traps. [PAWN_nameDef] solved them for fun, until one particular door closed behind and stayed shut for two days.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Dwemer_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Intellectual>2</Intellectual>
+            <Crafting>2</Crafting>
+        </skillGains>
+        <bodyTypeMale>Hulk</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Dwemer_Child_Clay_Model_Builder</defName>
+        <identifier>ESCP_Backstory_Dwemer_Child_Clay_Model_Builder</identifier>
+        <slot>Childhood</slot>
+        <title>clay model builder</title>
+        <titleShort>Model builder</titleShort>
+        <description>Before any hall got cut from the rock, somebody made a small model of it first. [PAWN_nameDef] built them from clay and was allowed to suggest minor improvements.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Dwemer_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Construction>3</Construction>
+            <Artistic>1</Artistic>
+        </skillGains>
+        <bodyTypeMale>Hulk</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Dwemer_Child_Fungus_Ale_Thief</defName>
+        <identifier>ESCP_Backstory_Dwemer_Child_Fungus_Ale_Thief</identifier>
+        <slot>Childhood</slot>
+        <title>fungus-ale thief</title>
+        <titleShort>Ale thief</titleShort>
+        <description>Fungus ale ferments slowly and vanishes quickly. [PAWN_nameDef] siphoned a cask for a whole winter and blamed it on evaporation, citing the correct figures.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Dwemer_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Cooking>2</Cooking>
+            <Social>2</Social>
+        </skillGains>
+        <bodyTypeMale>Hulk</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Dwemer_Child_Aetherium_Dust_Sweeper</defName>
+        <identifier>ESCP_Backstory_Dwemer_Child_Aetherium_Dust_Sweeper</identifier>
+        <slot>Childhood</slot>
+        <title>aetherium dust sweeper</title>
+        <titleShort>Dust sweeper</titleShort>
+        <description>Some floors at the forge shone a bit too much. [PAWN_nameDef] swept them with a wet rag and a cough, and was told it was probably fine.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Dwemer_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Crafting>2</Crafting>
+            <Medicine>2</Medicine>
+        </skillGains>
+        <bodyTypeMale>Hulk</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Dwemer_Child_Heat_Gallery_Child</defName>
+        <identifier>ESCP_Backstory_Dwemer_Child_Heat_Gallery_Child</identifier>
+        <slot>Childhood</slot>
+        <title>heat-gallery child</title>
+        <titleShort>Heat child</titleShort>
+        <description>Warm galleries near the lava vents were the best place to sleep and the worst place to fall over. [PAWN_nameDef] learned to find the difference in the dark.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Dwemer_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Construction>2</Construction>
+            <Mining>2</Mining>
+        </skillGains>
+        <bodyTypeMale>Hulk</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Dwemer_Child_Mora_Scroll_Reader</defName>
+        <identifier>ESCP_Backstory_Dwemer_Child_Mora_Scroll_Reader</identifier>
+        <slot>Childhood</slot>
+        <title>Mora scroll reader</title>
+        <titleShort>Reader</titleShort>
+        <description>An elder's Chimer-looted scroll described gods as if they were real. [PAWN_nameDef] laughed for an hour and then read all the footnotes in search of errors.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Dwemer_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Intellectual>3</Intellectual>
+            <Artistic>1</Artistic>
+        </skillGains>
+        <bodyTypeMale>Hulk</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Dwemer_Child_Thread_Gauge_Prodigy</defName>
+        <identifier>ESCP_Backstory_Dwemer_Child_Thread_Gauge_Prodigy</identifier>
+        <slot>Childhood</slot>
+        <title>thread-gauge prodigy</title>
+        <titleShort>Prodigy</titleShort>
+        <description>By nine, [PAWN_nameDef] could cut a thread to within a hair's width, and could also explain to adults what was wrong with theirs. Few of them enjoyed it.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Dwemer_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Intellectual>2</Intellectual>
+            <Crafting>2</Crafting>
+        </skillGains>
+        <bodyTypeMale>Hulk</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Dwemer_Child_Rourken_Crossroads_Child</defName>
+        <identifier>ESCP_Backstory_Dwemer_Child_Rourken_Crossroads_Child</identifier>
+        <slot>Childhood</slot>
+        <title>Rourken crossroads child</title>
+        <titleShort>Crossroads child</titleShort>
+        <description>Traders from the Velothi Mountains came through the upper gates carrying news. [PAWN_nameDef] listened in, and the first map in that child's mind came from those stories.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Dwemer_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Social>2</Social>
+            <Mining>1</Mining>
+            <Crafting>1</Crafting>
+        </skillGains>
+        <bodyTypeMale>Hulk</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Dwemer_Child_Boiler_Stokers_Child</defName>
+        <identifier>ESCP_Backstory_Dwemer_Child_Boiler_Stokers_Child</identifier>
+        <slot>Childhood</slot>
+        <title>boiler stoker's child</title>
+        <titleShort>Stoker's child</titleShort>
+        <description>Heavy shovels build big arms, as [PAWN_nameDef]'s parents often remarked. A place by the boilers also meant never being cold, even at the bottom of Skyrim.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Dwemer_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Construction>2</Construction>
+            <Melee>2</Melee>
+        </skillGains>
+        <bodyTypeMale>Hulk</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Dwemer_Child_Surface_Seen_Child</defName>
+        <identifier>ESCP_Backstory_Dwemer_Child_Surface_Seen_Child</identifier>
+        <slot>Childhood</slot>
+        <title>surface-seen child</title>
+        <titleShort>Surface-seen</titleShort>
+        <description>At age ten, on a dare, [PAWN_nameDef] climbed all the way up to the entrance and saw snow. No amount of explanation could make that seem any less stupid afterward.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Dwemer_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Plants>2</Plants>
+            <Social>2</Social>
+        </skillGains>
+        <bodyTypeMale>Hulk</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Dwemer_Child_Proof_Board_Cleaner</defName>
+        <identifier>ESCP_Backstory_Dwemer_Child_Proof_Board_Cleaner</identifier>
+        <slot>Childhood</slot>
+        <title>proof-board cleaner</title>
+        <titleShort>Board cleaner</titleShort>
+        <description>The great slate at the end of the hall had to be cleaned once a theorem was over. [PAWN_nameDef] copied the good parts down first, and sold a few to students.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Dwemer_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Intellectual>3</Intellectual>
+            <Cooking>1</Cooking>
+        </skillGains>
+        <bodyTypeMale>Hulk</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Dwemer_Child_Horn_Bronze_Player</defName>
+        <identifier>ESCP_Backstory_Dwemer_Child_Horn_Bronze_Player</identifier>
+        <slot>Childhood</slot>
+        <title>horn-bronze player</title>
+        <titleShort>Horn player</titleShort>
+        <description>Great horns of bronze mark the change of shift in a large hold. [PAWN_nameDef] got to blow one at age eleven and could hear very little for the rest of the day.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Dwemer_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Artistic>4</Artistic>
+        </skillGains>
+        <bodyTypeMale>Hulk</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Dwemer_Adult_Animunculi_Commander</defName>
+        <identifier>ESCP_Backstory_Dwemer_Adult_Animunculi_Commander</identifier>
+        <slot>Adulthood</slot>
+        <title>animunculi commander</title>
+        <titleShort>Commander</titleShort>
+        <description>Centurions do what they're told precisely, which is where the danger is. [PAWN_nameDef] learned to give orders that couldn't be misread, and still does it at breakfast.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Dwemer_Military</li>
+        </spawnCategories>
+        <skillGains>
+            <Melee>4</Melee>
+            <Intellectual>4</Intellectual>
+        </skillGains>
+        <bodyTypeMale>Hulk</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Dwemer_Adult_Volendrung_Bearers_Guard</defName>
+        <identifier>ESCP_Backstory_Dwemer_Adult_Volendrung_Bearers_Guard</identifier>
+        <slot>Adulthood</slot>
+        <title>Volendrung bearer's guard</title>
+        <titleShort>Hammer guard</titleShort>
+        <description>Rourken took Volendrung west with him, and [PAWN_nameDef]'s clan went along to keep an eye on it. Nothing else has ever seemed quite as heavy.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Dwemer_Military</li>
+        </spawnCategories>
+        <skillGains>
+            <Melee>7</Melee>
+            <Social>1</Social>
+        </skillGains>
+        <bodyTypeMale>Hulk</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Dwemer_Adult_Aetherium_War_Sapper</defName>
+        <identifier>ESCP_Backstory_Dwemer_Adult_Aetherium_War_Sapper</identifier>
+        <slot>Adulthood</slot>
+        <title>Aetherium War sapper</title>
+        <titleShort>Sapper</titleShort>
+        <description>In the Aetherium Wars, four Dwemer cities went after the same forge and one another's walls. [PAWN_nameDef] dug under enemy halls and was buried twice by friends.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Dwemer_Military</li>
+        </spawnCategories>
+        <skillGains>
+            <Mining>5</Mining>
+            <Construction>3</Construction>
+        </skillGains>
+        <bodyTypeMale>Hulk</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Dwemer_Adult_Red_Mountain_Veteran</defName>
+        <identifier>ESCP_Backstory_Dwemer_Adult_Red_Mountain_Veteran</identifier>
+        <slot>Adulthood</slot>
+        <title>Red Mountain veteran</title>
+        <titleShort>Red Mountain</titleShort>
+        <description>Chimer and Dwemer had been allies for generations before they fought at Red Mountain. [PAWN_nameDef] had been in that first battle, and had known some of the other side by name.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Dwemer_Military</li>
+        </spawnCategories>
+        <skillGains>
+            <Melee>6</Melee>
+            <Shooting>2</Shooting>
+        </skillGains>
+        <bodyTypeMale>Hulk</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Dwemer_Adult_Crossbow_Gallery_Captain</defName>
+        <identifier>ESCP_Backstory_Dwemer_Adult_Crossbow_Gallery_Captain</identifier>
+        <slot>Adulthood</slot>
+        <title>crossbow gallery captain</title>
+        <titleShort>Gallery captain</titleShort>
+        <description>Crossbows in Dwemer holds are mounted, aimed and calibrated in advance. [PAWN_nameDef] had the range marked to every doorway and made sure each crew could recite them.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Dwemer_Military</li>
+        </spawnCategories>
+        <skillGains>
+            <Shooting>6</Shooting>
+            <Social>2</Social>
+        </skillGains>
+        <bodyTypeMale>Hulk</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Dwemer_Adult_Falmer_Revolt_Suppressor</defName>
+        <identifier>ESCP_Backstory_Dwemer_Adult_Falmer_Revolt_Suppressor</identifier>
+        <slot>Adulthood</slot>
+        <title>Falmer revolt suppressor</title>
+        <titleShort>Suppressor</titleShort>
+        <description>When thralls turned on the deep shafts, the clan sent someone to restore order. [PAWN_nameDef] did so, and no one asked how, as nobody really wanted to know.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Dwemer_Military</li>
+        </spawnCategories>
+        <skillGains>
+            <Melee>6</Melee>
+            <Social>1</Social>
+        </skillGains>
+        <bodyTypeMale>Hulk</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <workDisables>Caring</workDisables>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Dwemer_Adult_Guard_Of_The_Tonal_Lens</defName>
+        <identifier>ESCP_Backstory_Dwemer_Adult_Guard_Of_The_Tonal_Lens</identifier>
+        <slot>Adulthood</slot>
+        <title>guard of the Tonal Lens</title>
+        <titleShort>Lens guard</titleShort>
+        <description>Nobody without clearance went near the lens. [PAWN_nameDef] never knew what it did, only that a colleague once looked at it wrong and could not be found afterward.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Dwemer_Military</li>
+        </spawnCategories>
+        <skillGains>
+            <Melee>5</Melee>
+            <Intellectual>2</Intellectual>
+        </skillGains>
+        <bodyTypeMale>Hulk</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Dwemer_Adult_Hold_Breaker</defName>
+        <identifier>ESCP_Backstory_Dwemer_Adult_Hold_Breaker</identifier>
+        <slot>Adulthood</slot>
+        <title>hold-breaker</title>
+        <titleShort>Hold-breaker</titleShort>
+        <description>Enemy gates respond to the right note, a very large ram, or both. [PAWN_nameDef] led the sappers against a neighboring clan's gate over a dispute of honor and irrigation.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Dwemer_Military</li>
+        </spawnCategories>
+        <skillGains>
+            <Melee>4</Melee>
+            <Construction>4</Construction>
+        </skillGains>
+        <bodyTypeMale>Hulk</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Dwemer_Adult_Nord_Border_Raider</defName>
+        <identifier>ESCP_Backstory_Dwemer_Adult_Nord_Border_Raider</identifier>
+        <slot>Adulthood</slot>
+        <title>Nord-border raider</title>
+        <titleShort>Border raider</titleShort>
+        <description>Nords came up the Reach valleys wanting Dwemer treasure. [PAWN_nameDef] went out to discuss it and took a few of them back down for further study.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Dwemer_Military</li>
+        </spawnCategories>
+        <skillGains>
+            <Melee>5</Melee>
+            <Shooting>3</Shooting>
+        </skillGains>
+        <bodyTypeMale>Hulk</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Dwemer_Adult_Dwarven_Spear_Drill_Sergeant</defName>
+        <identifier>ESCP_Backstory_Dwemer_Adult_Dwarven_Spear_Drill_Sergeant</identifier>
+        <slot>Adulthood</slot>
+        <title>Dwarven spear-drill sergeant</title>
+        <titleShort>Drill sergeant</titleShort>
+        <description>A formation of Dwemer spears moves as neatly as a gear train. [PAWN_nameDef] drilled them until they moved like one, and then started on the timing.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Dwemer_Military</li>
+        </spawnCategories>
+        <skillGains>
+            <Melee>5</Melee>
+            <Social>3</Social>
+        </skillGains>
+        <bodyTypeMale>Hulk</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Dwemer_Adult_Duelist_Of_The_Five_Halls</defName>
+        <identifier>ESCP_Backstory_Dwemer_Adult_Duelist_Of_The_Five_Halls</identifier>
+        <slot>Adulthood</slot>
+        <title>duelist of the Five Halls</title>
+        <titleShort>Duelist</titleShort>
+        <description>Formal disputes between scholars could end in steel if logic failed. [PAWN_nameDef] accepted such commissions from people who were right but could not fight.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Dwemer_Military</li>
+        </spawnCategories>
+        <skillGains>
+            <Melee>7</Melee>
+            <Intellectual>1</Intellectual>
+        </skillGains>
+        <bodyTypeMale>Hulk</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Dwemer_Adult_Tunnel_Marshal</defName>
+        <identifier>ESCP_Backstory_Dwemer_Adult_Tunnel_Marshal</identifier>
+        <slot>Adulthood</slot>
+        <title>tunnel marshal</title>
+        <titleShort>Tunnel marshal</titleShort>
+        <description>Keeping order at the bottom of a mine means knowing who is angry and how much rock is above them. [PAWN_nameDef] managed both, with limited patience.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Dwemer_Military</li>
+        </spawnCategories>
+        <skillGains>
+            <Melee>4</Melee>
+            <Mining>3</Mining>
+            <Social>1</Social>
+        </skillGains>
+        <bodyTypeMale>Hulk</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Dwemer_Adult_Ballista_Artificer</defName>
+        <identifier>ESCP_Backstory_Dwemer_Adult_Ballista_Artificer</identifier>
+        <slot>Adulthood</slot>
+        <title>ballista artificer</title>
+        <titleShort>Ballista maker</titleShort>
+        <description>Tension is simple mathematics, and bolts are simple metal. [PAWN_nameDef] made each ballista personally and could put a bolt through a guar at a mile.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Dwemer_Military</li>
+        </spawnCategories>
+        <skillGains>
+            <Shooting>5</Shooting>
+            <Crafting>3</Crafting>
+        </skillGains>
+        <bodyTypeMale>Hulk</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Dwemer_Adult_Surface_Patrol_Captain</defName>
+        <identifier>ESCP_Backstory_Dwemer_Adult_Surface_Patrol_Captain</identifier>
+        <slot>Adulthood</slot>
+        <title>surface patrol captain</title>
+        <titleShort>Patrol captain</titleShort>
+        <description>Few Dwemer would go up there willingly. [PAWN_nameDef] led the surface patrols for years, wearing dark glass and complaining without pause about the weather.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Dwemer_Military</li>
+        </spawnCategories>
+        <skillGains>
+            <Shooting>4</Shooting>
+            <Animals>2</Animals>
+            <Melee>2</Melee>
+        </skillGains>
+        <bodyTypeMale>Hulk</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Dwemer_Adult_Dragon_War_Veteran</defName>
+        <identifier>ESCP_Backstory_Dwemer_Adult_Dragon_War_Veteran</identifier>
+        <slot>Adulthood</slot>
+        <title>Dragon War veteran</title>
+        <titleShort>Dragon War veteran</titleShort>
+        <description>Dragons rarely bother with deep halls, but they did burn the upper gates of more than one Dwemer city. [PAWN_nameDef] was stationed at one of those gates.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Dwemer_Military</li>
+        </spawnCategories>
+        <skillGains>
+            <Melee>5</Melee>
+            <Shooting>2</Shooting>
+            <Medicine>1</Medicine>
+        </skillGains>
+        <bodyTypeMale>Hulk</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Dwemer_Adult_Sentinel_Of_The_Vault</defName>
+        <identifier>ESCP_Backstory_Dwemer_Adult_Sentinel_Of_The_Vault</identifier>
+        <slot>Adulthood</slot>
+        <title>Sentinel of the Vault</title>
+        <titleShort>Vault sentinel</titleShort>
+        <description>Sealed vaults get a guard for a set term, and the term can be quite long. [PAWN_nameDef] served ninety years in one corridor, with a very clean record.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Dwemer_Military</li>
+        </spawnCategories>
+        <skillGains>
+            <Melee>6</Melee>
+            <Construction>2</Construction>
+        </skillGains>
+        <bodyTypeMale>Hulk</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Dwemer_Adult_Tonal_Architect</defName>
+        <identifier>ESCP_Backstory_Dwemer_Adult_Tonal_Architect</identifier>
+        <slot>Adulthood</slot>
+        <title>Tonal Architect</title>
+        <titleShort>Tonal architect</titleShort>
+        <description>Stone will listen if you find its pitch, and metal is simply more stubborn about it. [PAWN_nameDef] built a door that opened only for one precise chord.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Dwemer_Mage</li>
+        </spawnCategories>
+        <skillGains>
+            <Intellectual>7</Intellectual>
+            <Artistic>2</Artistic>
+        </skillGains>
+        <bodyTypeMale>Hulk</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Dwemer_Adult_Kagrenacs_Lab_Assistant</defName>
+        <identifier>ESCP_Backstory_Dwemer_Adult_Kagrenacs_Lab_Assistant</identifier>
+        <slot>Adulthood</slot>
+        <title>Kagrenac's lab assistant</title>
+        <titleShort>Lab assistant</titleShort>
+        <description>Kagrenac wanted a great many measurements taken and did not explain why. [PAWN_nameDef] took them all and has since had time to think about what they were for.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Dwemer_Mage</li>
+        </spawnCategories>
+        <skillGains>
+            <Intellectual>6</Intellectual>
+            <Crafting>2</Crafting>
+        </skillGains>
+        <bodyTypeMale>Hulk</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Dwemer_Adult_Numidium_Foundry_Clerk</defName>
+        <identifier>ESCP_Backstory_Dwemer_Adult_Numidium_Foundry_Clerk</identifier>
+        <slot>Adulthood</slot>
+        <title>Numidium foundry clerk</title>
+        <titleShort>Foundry clerk</titleShort>
+        <description>Parts for the Walking Brass came through in the thousands, each with a form attached. [PAWN_nameDef] filed those forms and had no idea of the shape they added up to.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Dwemer_Mage</li>
+        </spawnCategories>
+        <skillGains>
+            <Intellectual>5</Intellectual>
+            <Crafting>3</Crafting>
+        </skillGains>
+        <bodyTypeMale>Hulk</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Dwemer_Adult_Heart_Lore_Skeptic</defName>
+        <identifier>ESCP_Backstory_Dwemer_Adult_Heart_Lore_Skeptic</identifier>
+        <slot>Adulthood</slot>
+        <title>heart-lore skeptic</title>
+        <titleShort>Skeptic</titleShort>
+        <description>[PAWN_nameDef] argued that the Heart of Lorkhan was simply a very large energy source and that gods were bad data. This was a popular view and possibly the last one anybody held.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Dwemer_Mage</li>
+        </spawnCategories>
+        <skillGains>
+            <Intellectual>7</Intellectual>
+            <Social>1</Social>
+        </skillGains>
+        <bodyTypeMale>Hulk</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Dwemer_Adult_Enchanter_Of_Bronze</defName>
+        <identifier>ESCP_Backstory_Dwemer_Adult_Enchanter_Of_Bronze</identifier>
+        <slot>Adulthood</slot>
+        <title>enchanter of bronze</title>
+        <titleShort>Bronze enchanter</titleShort>
+        <description>Bronze accepts an enchantment poorly, unless it's cast and cooled at the right pitch. [PAWN_nameDef] tuned the forge by ear and got a remarkable hit rate.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Dwemer_Mage</li>
+        </spawnCategories>
+        <skillGains>
+            <Crafting>6</Crafting>
+            <Intellectual>2</Intellectual>
+        </skillGains>
+        <bodyTypeMale>Hulk</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Dwemer_Adult_Soul_Free_Centurion_Theorist</defName>
+        <identifier>ESCP_Backstory_Dwemer_Adult_Soul_Free_Centurion_Theorist</identifier>
+        <slot>Adulthood</slot>
+        <title>soul-free centurion theorist</title>
+        <titleShort>Theorist</titleShort>
+        <description>Animunculi run on soul gems, unless someone comes up with a better way. [PAWN_nameDef] spent a century trying that and left a shelf of very promising failures.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Dwemer_Mage</li>
+        </spawnCategories>
+        <skillGains>
+            <Intellectual>6</Intellectual>
+            <Crafting>3</Crafting>
+        </skillGains>
+        <bodyTypeMale>Hulk</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Dwemer_Adult_Star_Chart_Reckoner</defName>
+        <identifier>ESCP_Backstory_Dwemer_Adult_Star_Chart_Reckoner</identifier>
+        <slot>Adulthood</slot>
+        <title>star-chart reckoner</title>
+        <titleShort>Reckoner</titleShort>
+        <description>Mzulft's oculory turned its beam on the skies, and [PAWN_nameDef] was in charge of the numbers. Those numbers suggested some rather rude things about the Aedra.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Dwemer_Mage</li>
+        </spawnCategories>
+        <skillGains>
+            <Intellectual>7</Intellectual>
+            <Artistic>1</Artistic>
+        </skillGains>
+        <bodyTypeMale>Hulk</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Dwemer_Adult_Alchemy_Of_Oils</defName>
+        <identifier>ESCP_Backstory_Dwemer_Adult_Alchemy_Of_Oils</identifier>
+        <slot>Adulthood</slot>
+        <title>alchemy of oils</title>
+        <titleShort>Oil alchemist</titleShort>
+        <description>Dwarven oil keeps the gears turning, and is also a fine antiseptic. [PAWN_nameDef] discovered this by accident and recommended only the first use to others.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Dwemer_Mage</li>
+        </spawnCategories>
+        <skillGains>
+            <Medicine>5</Medicine>
+            <Crafting>3</Crafting>
+        </skillGains>
+        <bodyTypeMale>Hulk</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Dwemer_Adult_Physician_Of_The_Halls</defName>
+        <identifier>ESCP_Backstory_Dwemer_Adult_Physician_Of_The_Halls</identifier>
+        <slot>Adulthood</slot>
+        <title>physician of the halls</title>
+        <titleShort>Physician</titleShort>
+        <description>Crush injuries, burns and hearing loss are the main ailments of Dwemer cities. [PAWN_nameDef] saw all three daily and treated them with brisk, unsentimental competence.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Dwemer_Mage</li>
+        </spawnCategories>
+        <skillGains>
+            <Medicine>7</Medicine>
+            <Intellectual>1</Intellectual>
+        </skillGains>
+        <bodyTypeMale>Hulk</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Dwemer_Adult_Sonic_Healer</defName>
+        <identifier>ESCP_Backstory_Dwemer_Adult_Sonic_Healer</identifier>
+        <slot>Adulthood</slot>
+        <title>sonic healer</title>
+        <titleShort>Sonic healer</titleShort>
+        <description>Bone knits a little faster at the proper frequency, or so went [PAWN_nameDef]'s claim. Patients reported some improvement and a lasting dislike of chimes.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Dwemer_Mage</li>
+        </spawnCategories>
+        <skillGains>
+            <Medicine>5</Medicine>
+            <Artistic>3</Artistic>
+        </skillGains>
+        <bodyTypeMale>Hulk</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Dwemer_Adult_Disproof_Writer</defName>
+        <identifier>ESCP_Backstory_Dwemer_Adult_Disproof_Writer</identifier>
+        <slot>Adulthood</slot>
+        <title>disproof-writer</title>
+        <titleShort>Disproof-writer</titleShort>
+        <description>Every Dwemer religion is a mistake to be corrected in writing. [PAWN_nameDef] wrote fifty-one disproofs of the Aedra, and sent copies to the Chimer for comment.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Dwemer_Mage</li>
+        </spawnCategories>
+        <skillGains>
+            <Intellectual>7</Intellectual>
+            <Social>2</Social>
+        </skillGains>
+        <bodyTypeMale>Hulk</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Dwemer_Adult_Lightning_Coil_Keeper</defName>
+        <identifier>ESCP_Backstory_Dwemer_Adult_Lightning_Coil_Keeper</identifier>
+        <slot>Adulthood</slot>
+        <title>lightning coil keeper</title>
+        <titleShort>Coil keeper</titleShort>
+        <description>Storm-coils hold a charge so long as nothing's touching them. [PAWN_nameDef] walked between them in leather boots with very good posture.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Dwemer_Mage</li>
+        </spawnCategories>
+        <skillGains>
+            <Intellectual>5</Intellectual>
+            <Shooting>3</Shooting>
+        </skillGains>
+        <bodyTypeMale>Hulk</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Dwemer_Adult_Memory_Core_Keeper</defName>
+        <identifier>ESCP_Backstory_Dwemer_Adult_Memory_Core_Keeper</identifier>
+        <slot>Adulthood</slot>
+        <title>memory-core keeper</title>
+        <titleShort>Core keeper</titleShort>
+        <description>Records of a clan can be stored in an arrangement of metal cylinders. [PAWN_nameDef] looked after them and quietly corrected a few that hadn't been flattering.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Dwemer_Mage</li>
+        </spawnCategories>
+        <skillGains>
+            <Intellectual>6</Intellectual>
+            <Social>2</Social>
+        </skillGains>
+        <bodyTypeMale>Hulk</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Dwemer_Adult_Mathematical_Priest</defName>
+        <identifier>ESCP_Backstory_Dwemer_Adult_Mathematical_Priest</identifier>
+        <slot>Adulthood</slot>
+        <title>mathematical priest</title>
+        <titleShort>Reckoning priest</titleShort>
+        <description>Dwemer have no priests, except that someone must conduct the funeral and read the numbers aloud. [PAWN_nameDef] did this with total conviction and no deity.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Dwemer_Mage</li>
+        </spawnCategories>
+        <skillGains>
+            <Social>5</Social>
+            <Intellectual>4</Intellectual>
+        </skillGains>
+        <bodyTypeMale>Hulk</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Dwemer_Adult_Resonance_Surveyor</defName>
+        <identifier>ESCP_Backstory_Dwemer_Adult_Resonance_Surveyor</identifier>
+        <slot>Adulthood</slot>
+        <title>resonance surveyor</title>
+        <titleShort>Resonance surveyor</titleShort>
+        <description>Strike a rod into the rock, listen, and repeat for a hundred miles. [PAWN_nameDef] found a large aetherium seam in this way, and got no share of it.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Dwemer_Mage</li>
+        </spawnCategories>
+        <skillGains>
+            <Mining>5</Mining>
+            <Intellectual>3</Intellectual>
+        </skillGains>
+        <bodyTypeMale>Hulk</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Dwemer_Adult_Conjuration_Denier</defName>
+        <identifier>ESCP_Backstory_Dwemer_Adult_Conjuration_Denier</identifier>
+        <slot>Adulthood</slot>
+        <title>conjuration denier</title>
+        <titleShort>Denier</titleShort>
+        <description>Daedra are simply a form of badly documented weather, in [PAWN_nameDef]'s published view. A summoned one disagreed strongly, and the paper got a second edition.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Dwemer_Mage</li>
+        </spawnCategories>
+        <skillGains>
+            <Intellectual>6</Intellectual>
+            <Melee>2</Melee>
+        </skillGains>
+        <bodyTypeMale>Hulk</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Dwemer_Adult_Dwarven_Glass_Maker</defName>
+        <identifier>ESCP_Backstory_Dwemer_Adult_Dwarven_Glass_Maker</identifier>
+        <slot>Adulthood</slot>
+        <title>Dwarven glass maker</title>
+        <titleShort>Glass maker</titleShort>
+        <description>Lenses for the oculory came from this workshop and no other. [PAWN_nameDef] rejected nine out of ten and kept the rejects as drinking glasses.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Dwemer_Mage</li>
+        </spawnCategories>
+        <skillGains>
+            <Crafting>5</Crafting>
+            <Intellectual>3</Intellectual>
+        </skillGains>
+        <bodyTypeMale>Hulk</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Dwemer_Adult_Mechanical_Clockmaker</defName>
+        <identifier>ESCP_Backstory_Dwemer_Adult_Mechanical_Clockmaker</identifier>
+        <slot>Adulthood</slot>
+        <title>mechanical clockmaker</title>
+        <titleShort>Clockmaker</titleShort>
+        <description>Time runs differently without a sun. [PAWN_nameDef] made the clocks by which the whole hold woke, ate and argued.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Dwemer_Citizen</li>
+        </spawnCategories>
+        <skillGains>
+            <Crafting>6</Crafting>
+            <Intellectual>2</Intellectual>
+        </skillGains>
+        <bodyTypeMale>Hulk</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Dwemer_Adult_Metal_Law_Advocate</defName>
+        <identifier>ESCP_Backstory_Dwemer_Adult_Metal_Law_Advocate</identifier>
+        <slot>Adulthood</slot>
+        <title>metal-law advocate</title>
+        <titleShort>Advocate</titleShort>
+        <description>Clans go to law over the ownership of ore before it has been mined. [PAWN_nameDef] represented them with reams of argument, and was paid in a small share.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Dwemer_Citizen</li>
+        </spawnCategories>
+        <skillGains>
+            <Social>6</Social>
+            <Intellectual>3</Intellectual>
+        </skillGains>
+        <bodyTypeMale>Hulk</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Dwemer_Adult_Lift_Engineer</defName>
+        <identifier>ESCP_Backstory_Dwemer_Adult_Lift_Engineer</identifier>
+        <slot>Adulthood</slot>
+        <title>lift engineer</title>
+        <titleShort>Lift engineer</titleShort>
+        <description>Dwemer lifts run by water and counterweight and rarely fall. [PAWN_nameDef] was the reason for that "rarely", in the good sense of the word.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Dwemer_Citizen</li>
+        </spawnCategories>
+        <skillGains>
+            <Construction>6</Construction>
+            <Crafting>2</Crafting>
+        </skillGains>
+        <bodyTypeMale>Hulk</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Dwemer_Adult_Ore_Assayer</defName>
+        <identifier>ESCP_Backstory_Dwemer_Adult_Ore_Assayer</identifier>
+        <slot>Adulthood</slot>
+        <title>ore assayer</title>
+        <titleShort>Assayer</titleShort>
+        <description>Every load of ore gets a number from the assayer, and the whole clan's budget follows it. [PAWN_nameDef] was offered many bribes and declined most.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Dwemer_Citizen</li>
+        </spawnCategories>
+        <skillGains>
+            <Mining>5</Mining>
+            <Intellectual>3</Intellectual>
+        </skillGains>
+        <bodyTypeMale>Hulk</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Dwemer_Adult_Pipe_Inspector</defName>
+        <identifier>ESCP_Backstory_Dwemer_Adult_Pipe_Inspector</identifier>
+        <slot>Adulthood</slot>
+        <title>pipe inspector</title>
+        <titleShort>Pipe inspector</titleShort>
+        <description>Miles of pipes run beneath a city, and any of them might be the one that fails. [PAWN_nameDef] walked them with a hammer, tapping and listening.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Dwemer_Citizen</li>
+        </spawnCategories>
+        <skillGains>
+            <Construction>7</Construction>
+            <Intellectual>1</Intellectual>
+        </skillGains>
+        <bodyTypeMale>Hulk</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Dwemer_Adult_Fungus_Hall_Steward</defName>
+        <identifier>ESCP_Backstory_Dwemer_Adult_Fungus_Hall_Steward</identifier>
+        <slot>Adulthood</slot>
+        <title>fungus-hall steward</title>
+        <titleShort>Fungus steward</titleShort>
+        <description>Nobody eats a hall's accounts, but people do eat its mushrooms. [PAWN_nameDef] ran one and thought that made it the only real job in the city.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Dwemer_Citizen</li>
+        </spawnCategories>
+        <skillGains>
+            <Plants>7</Plants>
+            <Cooking>1</Cooking>
+        </skillGains>
+        <bodyTypeMale>Hulk</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Dwemer_Adult_Bronze_Mirror_Maker</defName>
+        <identifier>ESCP_Backstory_Dwemer_Adult_Bronze_Mirror_Maker</identifier>
+        <slot>Adulthood</slot>
+        <title>bronze mirror maker</title>
+        <titleShort>Mirror maker</titleShort>
+        <description>[PAWN_nameDef] polished great mirrors to lead light down from the surface. Each one had to be set at its angle by hand and was quite beautiful, though nobody remarked on it.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Dwemer_Citizen</li>
+        </spawnCategories>
+        <skillGains>
+            <Artistic>5</Artistic>
+            <Crafting>4</Crafting>
+        </skillGains>
+        <bodyTypeMale>Hulk</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Dwemer_Adult_Bathhouse_Keeper</defName>
+        <identifier>ESCP_Backstory_Dwemer_Adult_Bathhouse_Keeper</identifier>
+        <slot>Adulthood</slot>
+        <title>bathhouse keeper</title>
+        <titleShort>Bathhouse keeper</titleShort>
+        <description>Water heated by the vents is the one luxury all Dwemer agree on. [PAWN_nameDef] ran a bathhouse where the great clans' feuds went on without any clothes.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Dwemer_Citizen</li>
+        </spawnCategories>
+        <skillGains>
+            <Construction>4</Construction>
+            <Social>4</Social>
+        </skillGains>
+        <bodyTypeMale>Hulk</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Dwemer_Adult_Cold_Forge_Smith</defName>
+        <identifier>ESCP_Backstory_Dwemer_Adult_Cold_Forge_Smith</identifier>
+        <slot>Adulthood</slot>
+        <title>cold-forge smith</title>
+        <titleShort>Smith</titleShort>
+        <description>Some alloys take the hammer only when cold, and they hate it. [PAWN_nameDef]'s right arm is noticeably larger than the left, and [PAWN_pronoun] is rather proud of it.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Dwemer_Citizen</li>
+        </spawnCategories>
+        <skillGains>
+            <Crafting>7</Crafting>
+            <Melee>1</Melee>
+        </skillGains>
+        <bodyTypeMale>Hulk</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Dwemer_Adult_Clan_Chronicler</defName>
+        <identifier>ESCP_Backstory_Dwemer_Adult_Clan_Chronicler</identifier>
+        <slot>Adulthood</slot>
+        <title>clan chronicler</title>
+        <titleShort>Chronicler</titleShort>
+        <description>[PAWN_nameDef] wrote the histories down exactly as they happened, then got told which ones to rewrite. Both versions exist, in separate vaults.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Dwemer_Citizen</li>
+        </spawnCategories>
+        <skillGains>
+            <Intellectual>5</Intellectual>
+            <Social>3</Social>
+        </skillGains>
+        <bodyTypeMale>Hulk</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Dwemer_Adult_Ventilator_Keeper</defName>
+        <identifier>ESCP_Backstory_Dwemer_Adult_Ventilator_Keeper</identifier>
+        <slot>Adulthood</slot>
+        <title>ventilator keeper</title>
+        <titleShort>Ventilator keeper</titleShort>
+        <description>The great fans turn day and night, and nobody thinks of them except when they stop. [PAWN_nameDef] made sure nobody had to think about them.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Dwemer_Citizen</li>
+        </spawnCategories>
+        <skillGains>
+            <Construction>6</Construction>
+            <Mining>2</Mining>
+        </skillGains>
+        <bodyTypeMale>Hulk</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Dwemer_Adult_Arch_Mason</defName>
+        <identifier>ESCP_Backstory_Dwemer_Adult_Arch_Mason</identifier>
+        <slot>Adulthood</slot>
+        <title>arch-mason</title>
+        <titleShort>Arch-mason</titleShort>
+        <description>Nothing holds a mountain up but good arithmetic. [PAWN_nameDef] cut keystones for a whole district and walks under them without looking up.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Dwemer_Citizen</li>
+        </spawnCategories>
+        <skillGains>
+            <Construction>8</Construction>
+        </skillGains>
+        <bodyTypeMale>Hulk</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Dwemer_Adult_Cook_For_The_Night_Shift</defName>
+        <identifier>ESCP_Backstory_Dwemer_Adult_Cook_For_The_Night_Shift</identifier>
+        <slot>Adulthood</slot>
+        <title>cook for the night shift</title>
+        <titleShort>Night cook</titleShort>
+        <description>Deep shifts run around the clock and a shift worker's mood depends on supper. [PAWN_nameDef] fed thousands, and was perhaps the most important person in the hold.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Dwemer_Citizen</li>
+        </spawnCategories>
+        <skillGains>
+            <Cooking>7</Cooking>
+            <Social>1</Social>
+        </skillGains>
+        <bodyTypeMale>Hulk</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Dwemer_Adult_Deep_Lake_Fisher</defName>
+        <identifier>ESCP_Backstory_Dwemer_Adult_Deep_Lake_Fisher</identifier>
+        <slot>Adulthood</slot>
+        <title>deep-lake fisher</title>
+        <titleShort>Lake fisher</titleShort>
+        <description>Fish in the lake below Blackreach have no eyes and no fear. [PAWN_nameDef] pulled them up by the basket and came to prefer their company.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Dwemer_Citizen</li>
+        </spawnCategories>
+        <skillGains>
+            <Cooking>3</Cooking>
+            <Animals>4</Animals>
+        </skillGains>
+        <bodyTypeMale>Hulk</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Dwemer_Adult_Contract_Notary</defName>
+        <identifier>ESCP_Backstory_Dwemer_Adult_Contract_Notary</identifier>
+        <slot>Adulthood</slot>
+        <title>contract notary</title>
+        <titleShort>Notary</titleShort>
+        <description>Dwemer oaths are kept partly because of honor and partly because someone like [PAWN_nameDef] has them on file. The second reason is thought more reliable.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Dwemer_Citizen</li>
+        </spawnCategories>
+        <skillGains>
+            <Social>5</Social>
+            <Intellectual>3</Intellectual>
+        </skillGains>
+        <bodyTypeMale>Hulk</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Dwemer_Adult_Cartographer_Of_The_Deep</defName>
+        <identifier>ESCP_Backstory_Dwemer_Adult_Cartographer_Of_The_Deep</identifier>
+        <slot>Adulthood</slot>
+        <title>cartographer of the deep</title>
+        <titleShort>Cartographer</titleShort>
+        <description>Maps of a Dwemer city go down as much as across. [PAWN_nameDef] drew them on stacked sheets of thin bronze and could lose an afternoon on a single stairwell.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Dwemer_Citizen</li>
+        </spawnCategories>
+        <skillGains>
+            <Intellectual>5</Intellectual>
+            <Mining>3</Mining>
+        </skillGains>
+        <bodyTypeMale>Hulk</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Dwemer_Adult_Mechanical_Toy_Maker</defName>
+        <identifier>ESCP_Backstory_Dwemer_Adult_Mechanical_Toy_Maker</identifier>
+        <slot>Adulthood</slot>
+        <title>mechanical toy maker</title>
+        <titleShort>Toy maker</titleShort>
+        <description>Small brass spiders that walk across a table are of no practical use. [PAWN_nameDef] made them anyway, and several elders secretly kept one.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Dwemer_Citizen</li>
+        </spawnCategories>
+        <skillGains>
+            <Crafting>6</Crafting>
+            <Artistic>3</Artistic>
+        </skillGains>
+        <bodyTypeMale>Hulk</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Dwemer_Adult_Ore_Wagon_Master</defName>
+        <identifier>ESCP_Backstory_Dwemer_Adult_Ore_Wagon_Master</identifier>
+        <slot>Adulthood</slot>
+        <title>ore-wagon master</title>
+        <titleShort>Wagon master</titleShort>
+        <description>Pack beasts are rare in a mountain, but they are needed where the rails end. [PAWN_nameDef] drove the wagons down to the smelters and knew all their names.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Dwemer_Citizen</li>
+        </spawnCategories>
+        <skillGains>
+            <Mining>5</Mining>
+            <Animals>3</Animals>
+        </skillGains>
+        <bodyTypeMale>Hulk</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Dwemer_Adult_Trade_Envoy_To_Skyrim</defName>
+        <identifier>ESCP_Backstory_Dwemer_Adult_Trade_Envoy_To_Skyrim</identifier>
+        <slot>Adulthood</slot>
+        <title>trade envoy to Skyrim</title>
+        <titleShort>Trade envoy</titleShort>
+        <description>Nords paid well for Dwemer metal, once they'd stopped trying to rob you for it. [PAWN_nameDef] sat through a great many mead halls for the sake of the clan's books.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Dwemer_Citizen</li>
+        </spawnCategories>
+        <skillGains>
+            <Social>6</Social>
+            <Crafting>1</Crafting>
+        </skillGains>
+        <bodyTypeMale>Hulk</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Dwemer_Adult_Dye_Chemist</defName>
+        <identifier>ESCP_Backstory_Dwemer_Adult_Dye_Chemist</identifier>
+        <slot>Adulthood</slot>
+        <title>dye-chemist</title>
+        <titleShort>Dye chemist</titleShort>
+        <description>Bright colors are hard to come by underground, so a chemist has good prospects there. [PAWN_nameDef] got a very fine purple out of a very bad fungus.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Dwemer_Citizen</li>
+        </spawnCategories>
+        <skillGains>
+            <Crafting>4</Crafting>
+            <Medicine>4</Medicine>
+        </skillGains>
+        <bodyTypeMale>Hulk</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Dwemer_Adult_Hold_Magistrate</defName>
+        <identifier>ESCP_Backstory_Dwemer_Adult_Hold_Magistrate</identifier>
+        <slot>Adulthood</slot>
+        <title>hold magistrate</title>
+        <titleShort>Magistrate</titleShort>
+        <description>Justice in the hold went by written rule and without any mercy to speak of. [PAWN_nameDef] applied the rule and had lunch at the regular time.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Dwemer_Citizen</li>
+        </spawnCategories>
+        <skillGains>
+            <Social>6</Social>
+            <Intellectual>2</Intellectual>
+        </skillGains>
+        <bodyTypeMale>Hulk</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Dwemer_Adult_Ruin_Born</defName>
+        <identifier>ESCP_Backstory_Dwemer_Adult_Ruin_Born</identifier>
+        <slot>Adulthood</slot>
+        <title>ruin-born</title>
+        <titleShort>Ruin-born</titleShort>
+        <description>[PAWN_nameDef] grew up in a corner of an old city, where the family had always lived, and no one could say how long. Rats and spheres shared the place on fair terms.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Dwemer_Descendant</li>
+        </spawnCategories>
+        <skillGains>
+            <Mining>4</Mining>
+            <Crafting>4</Crafting>
+        </skillGains>
+        <bodyTypeMale>Hulk</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Dwemer_Adult_Hidden_Clan_Elder</defName>
+        <identifier>ESCP_Backstory_Dwemer_Adult_Hidden_Clan_Elder</identifier>
+        <slot>Adulthood</slot>
+        <title>hidden clan elder</title>
+        <titleShort>Hidden elder</titleShort>
+        <description>Saying that Clan Rourken survived is a very good way to attract treasure hunters. [PAWN_nameDef] held the clan together by saying nothing to anyone for many years.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Dwemer_Descendant</li>
+        </spawnCategories>
+        <skillGains>
+            <Social>5</Social>
+            <Intellectual>3</Intellectual>
+        </skillGains>
+        <bodyTypeMale>Hulk</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Dwemer_Adult_Fragment_Reader</defName>
+        <identifier>ESCP_Backstory_Dwemer_Adult_Fragment_Reader</identifier>
+        <slot>Adulthood</slot>
+        <title>fragment reader</title>
+        <titleShort>Fragment reader</titleShort>
+        <description>Half the old texts rotted long ago and the other half are wrong. [PAWN_nameDef] pieced together what could be read and guessed at the rest, and told no one which was which.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Dwemer_Descendant</li>
+        </spawnCategories>
+        <skillGains>
+            <Intellectual>6</Intellectual>
+            <Crafting>2</Crafting>
+        </skillGains>
+        <bodyTypeMale>Hulk</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Dwemer_Adult_Surface_Passer</defName>
+        <identifier>ESCP_Backstory_Dwemer_Adult_Surface_Passer</identifier>
+        <slot>Adulthood</slot>
+        <title>surface passer</title>
+        <titleShort>Surface passer</titleShort>
+        <description>A short elf in a heavy hood can get by in a Hammerfell market. [PAWN_nameDef] brought back the clan's food for years, and has never once been asked the right question.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Dwemer_Descendant</li>
+        </spawnCategories>
+        <skillGains>
+            <Social>6</Social>
+            <Melee>2</Melee>
+        </skillGains>
+        <bodyTypeMale>Hulk</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+</Defs>

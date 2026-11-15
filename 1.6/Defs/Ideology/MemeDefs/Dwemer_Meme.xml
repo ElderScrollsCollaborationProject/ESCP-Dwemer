@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <MemeDef MayRequire="Ludeon.RimWorld.Ideology">
+        <defName>ESCP_Meme_RationalWay</defName>
+        <label>Rational Way</label>
+        <description>The gods are forces and forces can be measured. We owe them nothing. Every idol we have ever taken apart turned out to contain something we could use. When our kin rang the Heart and vanished we learned a hard lesson about method, and we mean to do the work properly next time.</description>
+        <iconPath>UI/Structures/ESCP_OriginDivinesEight</iconPath>
+        <groupDef>Misc</groupDef>
+        <impact>2</impact>
+        <randomizationSelectionWeightFactor>0</randomizationSelectionWeightFactor>
+        <hiddenInChooseMemes>true</hiddenInChooseMemes>
+        <requireOne>
+            <li>
+                <li>Research_VeryFast</li>
+                <li>Research_Fast</li>
+            </li>
+            <li>
+                <li>Corpses_Ugly</li>
+            </li>
+            <li>
+                <li>Slavery_Acceptable</li>
+            </li>
+            <li>
+                <li>Execution_RespectedIfGuilty</li>
+            </li>
+        </requireOne>
+    </MemeDef>
+
+</Defs>

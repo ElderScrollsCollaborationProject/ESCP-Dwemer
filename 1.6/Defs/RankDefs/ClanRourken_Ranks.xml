@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <ESCP.Ranks.RankTrackDef>
+        <defName>ESCP_RankTrack_ClanRourken</defName>
+        <label>Clan Rourken ranks</label>
+        <rootTier>ESCP_Rank_ClanRourken_Apprentice</rootTier>
+        <owningFaction>ESCP_Faction_Clan_Rourken</owningFaction>
+        <collectiveNoun>Clan Rourken</collectiveNoun>
+        <drillLabel>Weapon Trials</drillLabel>
+        <drillDesc>Train with any colonist. Both stop what they are doing and both gain skill XP. Once per day.</drillDesc>
+        <studyLabel>Study the Schematics</studyLabel>
+        <studyDesc>Study with another member. Both gain skill XP. Once per day.</studyDesc>
+        <inspectLabel>Inspect Their Work</inspectLabel>
+        <inspectDesc>Look over a junior member's gear. Good upkeep earns praise and poor upkeep earns a sharp word.</inspectDesc>
+        <punishLabel>Send to Clean Gears...</punishLabel>
+        <punishDesc>Set a junior member to tedious labor for a failure, souring their mood. Once per day per member.</punishDesc>
+        <rallyLabel>For Rourken!</rallyLabel>
+        <rallyDesc>Call on {0} to fight harder for a short while. Once every few days.</rallyDesc>
+        <fallInLabel>Assemble, Kin</fallInLabel>
+        <fallInDesc>Order {0} to gather behind you, up to four deep. They hold position until released.</fallInDesc>
+        <dismissLabel>Back to the Forges</dismissLabel>
+        <dismissDesc>Release {0} so they can return to their duties.</dismissDesc>
+    </ESCP.Ranks.RankTrackDef>
+
+    <ESCP.Ranks.RankTierDef>
+        <defName>ESCP_Rank_ClanRourken_Apprentice</defName>
+        <label>apprentice</label>
+        <description>Learns the tonal and mechanical arts of the Dwemer.</description>
+        <nextTierOptions>
+            <li>ESCP_Rank_ClanRourken_Artificer</li>
+        </nextTierOptions>
+    </ESCP.Ranks.RankTierDef>
+
+    <ESCP.Ranks.RankTierDef>
+        <defName>ESCP_Rank_ClanRourken_Artificer</defName>
+        <label>artificer</label>
+        <description>Builds and maintains the clan's machines.</description>
+        <minDaysInRank>4</minDaysInRank>
+        <skillRequirements>
+            <Crafting>5</Crafting>
+        </skillRequirements>
+        <minMissionsCompleted>1</minMissionsCompleted>
+        <trainingXpPerHour>
+            <Crafting>400</Crafting>
+            <Intellectual>200</Intellectual>
+        </trainingXpPerHour>
+        <expedition>ESCP_Expedition_Faction_Novice</expedition>
+        <discipline>Scholarly</discipline>
+        <nextTierOptions>
+            <li>ESCP_Rank_ClanRourken_Engineer</li>
+        </nextTierOptions>
+    </ESCP.Ranks.RankTierDef>
+
+    <ESCP.Ranks.RankTierDef>
+        <defName>ESCP_Rank_ClanRourken_Engineer</defName>
+        <label>engineer</label>
+        <description>Designs new constructs and tunes the old ones.</description>
+        <minDaysInRank>9</minDaysInRank>
+        <skillRequirements>
+            <Crafting>8</Crafting>
+        </skillRequirements>
+        <minMissionsCompleted>2</minMissionsCompleted>
+        <trainingXpPerHour>
+            <Crafting>500</Crafting>
+            <Intellectual>250</Intellectual>
+        </trainingXpPerHour>
+        <expedition>ESCP_Expedition_Faction_Novice</expedition>
+        <discipline>Scholarly</discipline>
+        <nextTierOptions>
+            <li>ESCP_Rank_ClanRourken_TonalArchitect</li>
+        </nextTierOptions>
+    </ESCP.Ranks.RankTierDef>
+
+    <ESCP.Ranks.RankTierDef>
+        <defName>ESCP_Rank_ClanRourken_TonalArchitect</defName>
+        <label>tonal architect</label>
+        <description>Works with the deep harmonies that power a Dwemer city.</description>
+        <minDaysInRank>14</minDaysInRank>
+        <skillRequirements>
+            <Crafting>11</Crafting>
+        </skillRequirements>
+        <minMissionsCompleted>4</minMissionsCompleted>
+        <trainingXpPerHour>
+            <Crafting>600</Crafting>
+            <Intellectual>300</Intellectual>
+        </trainingXpPerHour>
+        <expedition>ESCP_Expedition_Faction_Veteran</expedition>
+        <discipline>Scholarly</discipline>
+        <nextTierOptions>
+            <li>ESCP_Rank_ClanRourken_ClanElder</li>
+        </nextTierOptions>
+    </ESCP.Ranks.RankTierDef>
+
+    <ESCP.Ranks.RankTierDef>
+        <defName>ESCP_Rank_ClanRourken_ClanElder</defName>
+        <label>clan elder</label>
+        <description>Speaks for Clan Rourken in its councils.</description>
+        <minDaysInRank>20</minDaysInRank>
+        <skillRequirements>
+            <Crafting>14</Crafting>
+        </skillRequirements>
+        <minMissionsCompleted>6</minMissionsCompleted>
+        <trainingXpPerHour>
+            <Crafting>700</Crafting>
+            <Intellectual>350</Intellectual>
+        </trainingXpPerHour>
+        <expedition>ESCP_Expedition_Faction_Veteran</expedition>
+        <discipline>Scholarly</discipline>
+    </ESCP.Ranks.RankTierDef>
+
+</Defs>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <ESCP.Core.CharacterDef>
+        <defName>ESCP_Character_Kragen</defName>
+        <pawnKind>ESCP_Unique_Pawnkind_Dwemer_Chief</pawnKind>
+        <faction>ESCP_Faction_Clan_Rourken</faction>
+        <eras>
+            <li>1</li>
+        </eras>
+        <xenotype>ESCP_Xenotype_Dwemer</xenotype>
+        <roles>
+            <li Class="ESCP.Core.CharacterRole_FactionLeader">
+                <seniority>1500</seniority>
+            </li>
+        </roles>
+        <definitions>
+            <li Class="ESCP.Core.CharacterStoryDefinition">
+                <firstName>Kragen</firstName>
+                <lastName>Rourken</lastName>
+                <nickname>the Hammer</nickname>
+                <gender>Male</gender>
+                <age>210</age>
+            </li>
+            <li Class="ESCP.Core.CharacterAppearanceDefinition">
+                <hairColor>(120, 80, 40)</hairColor>
+                <hairDef>Decent</hairDef>
+                <beardDef>Braided</beardDef>
+                <headTypeDef>ESCP_HeadMerWideFace_Male_Average_Wide</headTypeDef>
+                <bodyTypeDef>Hulk</bodyTypeDef>
+            </li>
+        </definitions>
+    </ESCP.Core.CharacterDef>
+
+</Defs>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+    <ESCP_ClanRourken_Enlist_Letter_Title>Joined Clan Rourken</ESCP_ClanRourken_Enlist_Letter_Title>
+    <ESCP_ClanRourken_Enlist_Letter_Label>Clan Rourken has accepted the colony as an associate. The Dwemer will pay for skilled work and nothing else.</ESCP_ClanRourken_Enlist_Letter_Label>
+    <ESCP_ClanRourken_Enlist_Button_Label>Join Clan Rourken</ESCP_ClanRourken_Enlist_Button_Label>
+    <ESCP_ClanRourken_Enlist_Button_Desc>Work for the Dwemer of Clan Rourken. They value precision, tolerate outsiders and do not believe in gods.</ESCP_ClanRourken_Enlist_Button_Desc>
+    <ESCP_ClanRourken_Enlist_Requrements_Not_Satisfied>The clan does not find you useful yet. Standing: {0}.</ESCP_ClanRourken_Enlist_Requrements_Not_Satisfied>
+    <ESCP_ClanRourken_Enlisted_To_Hostile_Faction>The Dwemer have no dealings with their enemies.</ESCP_ClanRourken_Enlisted_To_Hostile_Faction>
+    <ESCP_ClanRourken_Enlisted_With_Key>Associate of Clan Rourken</ESCP_ClanRourken_Enlisted_With_Key>
+    <ESCP_ClanRourken_Missions_Label>Clan commissions</ESCP_ClanRourken_Missions_Label>
+    <ESCP_ClanRourken_Missions_Desc>See what the clan has commissioned.</ESCP_ClanRourken_Missions_Desc>
+    <ESCP_ClanRourken_Menu_Missions_Desc>Commissions from the halls of Clan Rourken. Paid in full on completion.</ESCP_ClanRourken_Menu_Missions_Desc>
+    <ESCP_ClanRourken_Menu_Missions_Select_Quest>Select a job</ESCP_ClanRourken_Menu_Missions_Select_Quest>
+    <ESCP_ClanRourken_Menu_Missions_Start_Quest>Accept</ESCP_ClanRourken_Menu_Missions_Start_Quest>
+    <ESCP_ClanRourken_Menu_Missions_Collect_Bounty>Collect</ESCP_ClanRourken_Menu_Missions_Collect_Bounty>
+    <ESCP_ClanRourken_Provisions_Label>Draw clan stores</ESCP_ClanRourken_Provisions_Label>
+    <ESCP_ClanRourken_Provisions_Desc>Rations and a few ingots from the clan forges.</ESCP_ClanRourken_Provisions_Desc>
+    <ESCP_ClanRourken_Storage_Label>Clan vault</ESCP_ClanRourken_Storage_Label>
+    <ESCP_ClanRourken_Storage_Desc>Store goods in a Dwemer vault.</ESCP_ClanRourken_Storage_Desc>
+    <ESCP_ClanRourken_Resign_Menu_Text>End your association with Clan Rourken?</ESCP_ClanRourken_Resign_Menu_Text>
+    <ESCP_ClanRourken_Resign_Letter_Title>Left Clan Rourken</ESCP_ClanRourken_Resign_Letter_Title>
+    <ESCP_ClanRourken_Resign_Letter_Label>The colony is no longer associated with Clan Rourken.</ESCP_ClanRourken_Resign_Letter_Label>
+    <ESCP_ClanRourken_Resign_Button_Label>End the association</ESCP_ClanRourken_Resign_Button_Label>
+    <ESCP_ClanRourken_Resign_Button_Desc>Leave the clan's service.</ESCP_ClanRourken_Resign_Button_Desc>
+    <ESCP_ClanRourken_Kick_Out_Letter_Title>Dismissed by Clan Rourken</ESCP_ClanRourken_Kick_Out_Letter_Title>
+    <ESCP_ClanRourken_Kick_Out_Label_Title>Clan Rourken has ended its association with the colony.</ESCP_ClanRourken_Kick_Out_Label_Title>
+    <ESCP_ClanRourken_Salary_Label>Collect your wages</ESCP_ClanRourken_Salary_Label>
+    <ESCP_ClanRourken_Salary_Desc>Coin from the clan's counting rooms.</ESCP_ClanRourken_Salary_Desc>
+    <ESCP_ClanRourken_Work_0_Label>Work the forges</ESCP_ClanRourken_Work_0_Label>
+    <ESCP_ClanRourken_Work_0_Desc>Shape metal under a Dwemer smith who corrects every strike.</ESCP_ClanRourken_Work_0_Desc>
+    <ESCP_ClanRourken_Work_1_Label>Study tonal architecture</ESCP_ClanRourken_Work_1_Label>
+    <ESCP_ClanRourken_Work_1_Desc>Learn the basics of Dwemer engineering.</ESCP_ClanRourken_Work_1_Desc>
+
+</LanguageData>
