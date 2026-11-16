@@ -17,6 +17,11 @@
             <li>Robust</li>
             <li>ESCP_Gene_Dwemer_Beard</li>
         </genes>
+        <modExtensions>
+            <li Class="ESCP_RaceTools.RaceProperties">
+                <leatherDef>ESCP_LeatherDwemer</leatherDef>
+            </li>
+        </modExtensions>
     </XenotypeDef>
 
 </Defs>
